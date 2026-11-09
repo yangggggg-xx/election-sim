@@ -68,6 +68,7 @@ const cardStyle: React.CSSProperties = {
 export default function InteractivePage2026() {
   const { staticData } = useSimStore();
   const staticResult = staticData[2026];
+  const [showOriginal, setShowOriginal] = useState(false);
   const [ensembleData, setEnsembleData] = useState<any>(null);
 
   useEffect(() => {
@@ -155,7 +156,7 @@ export default function InteractivePage2026() {
   }, []);
 
   // ── 静态数据 ──
-  const activeSnapshot = snapshots.length > 0 ? snapshots[snapshotIndex] : null;
+  const activeSnapshot = showOriginal && snapshots.length > 0 ? snapshots[snapshotIndex] : null;
   const staticPredictions = (activeSnapshot?.state_predictions || staticResult?.simulated?.state_predictions || {}) as Record<string, StatePrediction>;
   const staticEvents: SimEvent[] = (staticResult?.events || []) as SimEvent[];
   const staticEmotionWaves = useMemo(() => {
@@ -184,10 +185,27 @@ export default function InteractivePage2026() {
     ];
   }, [liveAgents]);
 
-  const activePredictions = simMode ? livePredictions : staticPredictions;
-  const activeRepEV = simMode ? liveRepEV : (activeSnapshot?.rep_electoral_votes || staticResult?.simulated?.rep_electoral_votes || 0);
-  const activeDemEV = simMode ? liveDemEV : (activeSnapshot?.dem_electoral_votes || staticResult?.simulated?.dem_electoral_votes || 0);
-  const activeEvents = simMode ? liveEvents : staticEvents;
+  const timelineAdditions = [
+    ...backtest.events,
+    { date: '2026-11-03', title: '举行中期选举（时间线）', assumption: '投票日节点' },
+    { date: '2026-11-09', title: '美国国会选后复会（时间线）', assumption: '选后节点' },
+  ];
+  const backtestEvents: SimEvent[] = timelineAdditions.map(event => ({
+    id: 'backtest-' + event.date,
+    date: event.date,
+    title: event.title,
+    content: event.assumption,
+    domain: 'economy',
+    country: 'US',
+    impact: null,
+    status: 'completed',
+  }));
+  const timelineEvents = [...staticEvents, ...backtestEvents].sort((a, b) => b.date.localeCompare(a.date));
+
+  const activePredictions = simMode ? livePredictions : showOriginal ? staticPredictions : backtest.updated.states as Record<string, StatePrediction>;
+  const activeRepEV = simMode ? liveRepEV : !showOriginal ? backtest.updated.rep : (activeSnapshot?.rep_electoral_votes || staticResult?.simulated?.rep_electoral_votes || 0);
+  const activeDemEV = simMode ? liveDemEV : !showOriginal ? backtest.updated.dem : (activeSnapshot?.dem_electoral_votes || staticResult?.simulated?.dem_electoral_votes || 0);
+  const activeEvents = simMode ? liveEvents : timelineEvents;
   const activePartyEmotion = simMode ? livePartyEmotion : staticPartyEmotion;
 
   const confStats = useMemo(() => {
@@ -236,6 +254,10 @@ export default function InteractivePage2026() {
 
       <section style={{ ...cardStyle, margin: '16px 24px', padding: 18 }}>
         <h2 style={{ marginTop: 0 }}>2026 选前事件回测</h2>
+        <Button onClick={() => setShowOriginal(value => !value)}>
+          {showOriginal ? '切换主地图到扩充回测' : '切换主地图到原版预测'}
+        </Button>
+        <p>当前主地图显示{showOriginal ? '原版预测' : '扩充回测'}。</p>
         <p>截止 {backtest.cutoff}。用同一规则引擎重跑原有 {backtest.baselineEventCount} 条 GLM 事件，再加入以下 {backtest.events.length} 条选前事件。新增事件参数为人工设定的情景假设，计算没有使用投票结果。</p>
         <ul>
           {backtest.events.map(event => (
@@ -314,10 +336,10 @@ export default function InteractivePage2026() {
               </div>
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>模型</span><span style={{ fontSize: 13, fontWeight: 700, color: C.gold }}>{(staticResult as any)?.provider_name || 'N/A'}</span></div>
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>历史基线</span><span style={{ fontSize: 13, fontWeight: 700, color: C.textPrimary }}>{(staticResult as any)?.baseline_year || 2024} 年</span></div>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>模型</span><span style={{ fontSize: 13, fontWeight: 700, color: C.gold }}>{showOriginal ? ((staticResult as any)?.provider_name || 'N/A') : '离线规则回测'}</span></div>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>历史基线</span><span style={{ fontSize: 13, fontWeight: 700, color: C.textPrimary }}>{showOriginal ? ((staticResult as any)?.baseline_year || 2024) : 2020} 年</span></div>
                 {activeSnapshot && <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>当前查看</span><span style={{ fontSize: 13, fontWeight: 700, color: C.gold }}>事件 {activeSnapshot.event_index}</span></div>}
-                <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>事件数</span><span style={{ fontSize: 13, fontWeight: 700, color: C.textPrimary }}>{snapshots.length || staticEvents.length}</span></div>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>事件数</span><span style={{ fontSize: 13, fontWeight: 700, color: C.textPrimary }}>{timelineEvents.length}</span></div>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}><span style={{ fontSize: 12, color: C.textSecondary }}>预测胜方</span><span style={{ fontSize: 13, fontWeight: 700, color: activeRepEV >= 270 ? C.red : C.blue }}>{activeRepEV >= 270 ? '共和党' : '民主党'}</span></div>
               </div>
             )}
@@ -345,7 +367,7 @@ export default function InteractivePage2026() {
           </div>
 
           {/* 事件步骤导航 */}
-          {!simMode && snapshots.length > 0 && (
+          {!simMode && showOriginal && snapshots.length > 0 && (
             <div style={{ padding: '10px 14px', borderRadius: 10, ...cardStyle }}>
               <div style={{ fontSize: 11, color: C.textMuted, letterSpacing: 1.5, marginBottom: 10, fontWeight: 600 }}>
                 事件时间线 -- 各事件后的预测结果
@@ -442,8 +464,8 @@ export default function InteractivePage2026() {
               <span style={{ margin: '0 6px', color: C.textMuted }}>vs</span>
               <span style={{ color: C.blue, fontWeight: 600 }}>民主</span> {activeDemEV}
             </div>
-            {!simMode && <div style={{ fontSize: 11, color: C.gold, marginTop: 6 }}>由 {(staticResult as any)?.provider_name || '大模型'} 驱动</div>}
-            {!simMode && ensembleData?.monte_carlo && (
+            {!simMode && <div style={{ fontSize: 11, color: C.gold, marginTop: 6 }}>{showOriginal ? '原版模型' : '扩充回测 · 州级模型倾向'}</div>}
+            {!simMode && showOriginal && ensembleData?.monte_carlo && (
               <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${C.cardBorder}` }}>
                 <div style={{ fontSize: 10, color: C.textMuted, letterSpacing: 1, marginBottom: 6, fontWeight: 600 }}>蒙特卡洛不确定性</div>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginBottom: 4 }}>
@@ -535,7 +557,7 @@ export default function InteractivePage2026() {
           )}
 
           {/* 竞争州（蒙特卡洛） */}
-          {!simMode && ensembleData?.monte_carlo?.state_probabilities && (
+          {!simMode && showOriginal && ensembleData?.monte_carlo?.state_probabilities && (
             <div style={{ ...cardStyle, padding: 14 }}>
               <SectionHeader title="竞争州" />
               <div style={{ fontSize: 10, color: C.textMuted, marginBottom: 6 }}>蒙特卡洛翻转概率</div>
