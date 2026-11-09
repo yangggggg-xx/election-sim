@@ -236,7 +236,7 @@ export default function InteractivePage2026() {
 
       <section style={{ ...cardStyle, margin: '16px 24px', padding: 18 }}>
         <h2 style={{ marginTop: 0 }}>2026 选前事件回测</h2>
-        <p>截止 {backtest.cutoff}。用同一规则引擎重跑原有 {backtest.baselineEventCount} 条 GLM 事件，再加入以下两条选前事件。新增事件参数为人工设定的情景假设，计算没有使用投票结果。</p>
+        <p>截止 {backtest.cutoff}。用同一规则引擎重跑原有 {backtest.baselineEventCount} 条 GLM 事件，再加入以下 {backtest.events.length} 条选前事件。新增事件参数为人工设定的情景假设，计算没有使用投票结果。</p>
         <ul>
           {backtest.events.map(event => (
             <li key={event.date}>
@@ -259,6 +259,14 @@ export default function InteractivePage2026() {
               })}
             </tbody>
           </table>
+        </details>
+        <details>
+          <summary>投票日与选后节点（截至 2026-11-09）</summary>
+          <ul>
+            <li>11-03 · 举行中期选举，各地陆续开始公布计票结果。 <a href="https://www.cbsnews.com/live-updates/election-day-2026-midterms/" target="_blank" rel="noreferrer">CBS News</a></li>
+            <li>11-09 · 美国国会在选后复会。 <a href="https://apnews.com/article/231d18d536141d9c19ac7e8cfca66eec" target="_blank" rel="noreferrer">美联社</a></li>
+          </ul>
+          <p>以上节点只用于时间线展示。</p>
         </details>
       </section>
 
