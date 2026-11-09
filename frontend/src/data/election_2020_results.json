@@ -1,0 +1,650 @@
+{
+  "year": 2020,
+  "rep_candidate": "Trump",
+  "dem_candidate": "Biden",
+  "simulated": {
+    "rep_electoral_votes": 235,
+    "dem_electoral_votes": 303,
+    "state_predictions": {
+      "AL": {
+        "winner": "rep",
+        "confidence": 0.921,
+        "ev": 9
+      },
+      "AK": {
+        "winner": "rep",
+        "confidence": 0.702,
+        "ev": 3
+      },
+      "AZ": {
+        "winner": "dem",
+        "confidence": 0.512,
+        "ev": 11
+      },
+      "AR": {
+        "winner": "rep",
+        "confidence": 0.886,
+        "ev": 6
+      },
+      "CA": {
+        "winner": "dem",
+        "confidence": 0.964,
+        "ev": 55
+      },
+      "CO": {
+        "winner": "dem",
+        "confidence": 0.873,
+        "ev": 9
+      },
+      "CT": {
+        "winner": "dem",
+        "confidence": 0.889,
+        "ev": 7
+      },
+      "DE": {
+        "winner": "rep",
+        "confidence": 0.498,
+        "ev": 3
+      },
+      "DC": {
+        "winner": "dem",
+        "confidence": 0.996,
+        "ev": 3
+      },
+      "FL": {
+        "winner": "rep",
+        "confidence": 0.518,
+        "ev": 29
+      },
+      "GA": {
+        "winner": "dem",
+        "confidence": 0.502,
+        "ev": 16
+      },
+      "HI": {
+        "winner": "dem",
+        "confidence": 0.961,
+        "ev": 4
+      },
+      "ID": {
+        "winner": "rep",
+        "confidence": 0.933,
+        "ev": 4
+      },
+      "IL": {
+        "winner": "dem",
+        "confidence": 0.912,
+        "ev": 20
+      },
+      "IN": {
+        "winner": "rep",
+        "confidence": 0.831,
+        "ev": 11
+      },
+      "IA": {
+        "winner": "dem",
+        "confidence": 0.512,
+        "ev": 6
+      },
+      "KS": {
+        "winner": "rep",
+        "confidence": 0.843,
+        "ev": 6
+      },
+      "KY": {
+        "winner": "rep",
+        "confidence": 0.912,
+        "ev": 8
+      },
+      "LA": {
+        "winner": "rep",
+        "confidence": 0.878,
+        "ev": 8
+      },
+      "ME": {
+        "winner": "dem",
+        "confidence": 0.681,
+        "ev": 4
+      },
+      "MD": {
+        "winner": "dem",
+        "confidence": 0.935,
+        "ev": 10
+      },
+      "MA": {
+        "winner": "dem",
+        "confidence": 0.968,
+        "ev": 11
+      },
+      "MI": {
+        "winner": "dem",
+        "confidence": 0.518,
+        "ev": 16
+      },
+      "MN": {
+        "winner": "dem",
+        "confidence": 0.632,
+        "ev": 10
+      },
+      "MS": {
+        "winner": "rep",
+        "confidence": 0.871,
+        "ev": 6
+      },
+      "MO": {
+        "winner": "rep",
+        "confidence": 0.849,
+        "ev": 10
+      },
+      "MT": {
+        "winner": "rep",
+        "confidence": 0.718,
+        "ev": 3
+      },
+      "NE": {
+        "winner": "rep",
+        "confidence": 0.856,
+        "ev": 5
+      },
+      "NV": {
+        "winner": "rep",
+        "confidence": 0.507,
+        "ev": 6
+      },
+      "NH": {
+        "winner": "dem",
+        "confidence": 0.652,
+        "ev": 4
+      },
+      "NJ": {
+        "winner": "dem",
+        "confidence": 0.918,
+        "ev": 14
+      },
+      "NM": {
+        "winner": "dem",
+        "confidence": 0.823,
+        "ev": 5
+      },
+      "NY": {
+        "winner": "dem",
+        "confidence": 0.941,
+        "ev": 29
+      },
+      "NC": {
+        "winner": "rep",
+        "confidence": 0.513,
+        "ev": 15
+      },
+      "ND": {
+        "winner": "rep",
+        "confidence": 0.927,
+        "ev": 3
+      },
+      "OH": {
+        "winner": "rep",
+        "confidence": 0.683,
+        "ev": 18
+      },
+      "OK": {
+        "winner": "rep",
+        "confidence": 0.941,
+        "ev": 7
+      },
+      "OR": {
+        "winner": "dem",
+        "confidence": 0.892,
+        "ev": 7
+      },
+      "PA": {
+        "winner": "dem",
+        "confidence": 0.509,
+        "ev": 20
+      },
+      "RI": {
+        "winner": "dem",
+        "confidence": 0.914,
+        "ev": 4
+      },
+      "SC": {
+        "winner": "rep",
+        "confidence": 0.829,
+        "ev": 9
+      },
+      "SD": {
+        "winner": "rep",
+        "confidence": 0.891,
+        "ev": 3
+      },
+      "TN": {
+        "winner": "rep",
+        "confidence": 0.923,
+        "ev": 11
+      },
+      "TX": {
+        "winner": "rep",
+        "confidence": 0.586,
+        "ev": 38
+      },
+      "UT": {
+        "winner": "rep",
+        "confidence": 0.887,
+        "ev": 6
+      },
+      "VT": {
+        "winner": "dem",
+        "confidence": 0.952,
+        "ev": 3
+      },
+      "VA": {
+        "winner": "dem",
+        "confidence": 0.839,
+        "ev": 13
+      },
+      "WA": {
+        "winner": "dem",
+        "confidence": 0.947,
+        "ev": 12
+      },
+      "WV": {
+        "winner": "rep",
+        "confidence": 0.946,
+        "ev": 5
+      },
+      "WI": {
+        "winner": "dem",
+        "confidence": 0.508,
+        "ev": 10
+      },
+      "WY": {
+        "winner": "rep",
+        "confidence": 0.957,
+        "ev": 3
+      }
+    }
+  },
+  "actual": {
+    "rep_electoral_votes": 232,
+    "dem_electoral_votes": 306,
+    "state_results": {
+      "AL": {
+        "winner": "rep",
+        "repVotes": 1441170,
+        "demVotes": 849624
+      },
+      "AK": {
+        "winner": "rep",
+        "repVotes": 178814,
+        "demVotes": 153778
+      },
+      "AZ": {
+        "winner": "dem",
+        "repVotes": 1661686,
+        "demVotes": 1672143
+      },
+      "AR": {
+        "winner": "rep",
+        "repVotes": 760647,
+        "demVotes": 423932
+      },
+      "CA": {
+        "winner": "dem",
+        "repVotes": 5569788,
+        "demVotes": 11110151
+      },
+      "CO": {
+        "winner": "dem",
+        "repVotes": 1306304,
+        "demVotes": 1804352
+      },
+      "CT": {
+        "winner": "dem",
+        "repVotes": 716874,
+        "demVotes": 1082266
+      },
+      "DE": {
+        "winner": "dem",
+        "repVotes": 200603,
+        "demVotes": 296368
+      },
+      "DC": {
+        "winner": "dem",
+        "repVotes": 20632,
+        "demVotes": 319808
+      },
+      "FL": {
+        "winner": "rep",
+        "repVotes": 5668731,
+        "demVotes": 5297845
+      },
+      "GA": {
+        "winner": "dem",
+        "repVotes": 2461854,
+        "demVotes": 2474507
+      },
+      "HI": {
+        "winner": "dem",
+        "repVotes": 187713,
+        "demVotes": 366130
+      },
+      "ID": {
+        "winner": "rep",
+        "repVotes": 554136,
+        "demVotes": 267275
+      },
+      "IL": {
+        "winner": "dem",
+        "repVotes": 2461888,
+        "demVotes": 3361022
+      },
+      "IN": {
+        "winner": "rep",
+        "repVotes": 1557286,
+        "demVotes": 1033126
+      },
+      "IA": {
+        "winner": "rep",
+        "repVotes": 897672,
+        "demVotes": 757640
+      },
+      "KS": {
+        "winner": "rep",
+        "repVotes": 771406,
+        "demVotes": 570323
+      },
+      "KY": {
+        "winner": "rep",
+        "repVotes": 1207463,
+        "demVotes": 763430
+      },
+      "LA": {
+        "winner": "rep",
+        "repVotes": 1158974,
+        "demVotes": 864059
+      },
+      "ME": {
+        "winner": "dem",
+        "repVotes": 355032,
+        "demVotes": 433908
+      },
+      "MD": {
+        "winner": "dem",
+        "repVotes": 968914,
+        "demVotes": 1870088
+      },
+      "MA": {
+        "winner": "dem",
+        "repVotes": 1221712,
+        "demVotes": 2278097
+      },
+      "MI": {
+        "winner": "dem",
+        "repVotes": 2648539,
+        "demVotes": 2793139
+      },
+      "MN": {
+        "winner": "dem",
+        "repVotes": 1452914,
+        "demVotes": 1717077
+      },
+      "MS": {
+        "winner": "rep",
+        "repVotes": 715724,
+        "demVotes": 490795
+      },
+      "MO": {
+        "winner": "rep",
+        "repVotes": 1718732,
+        "demVotes": 1253024
+      },
+      "MT": {
+        "winner": "rep",
+        "repVotes": 343582,
+        "demVotes": 243032
+      },
+      "NE": {
+        "winner": "rep",
+        "repVotes": 556846,
+        "demVotes": 374283
+      },
+      "NV": {
+        "winner": "dem",
+        "repVotes": 666058,
+        "demVotes": 703486
+      },
+      "NH": {
+        "winner": "dem",
+        "repVotes": 365930,
+        "demVotes": 424048
+      },
+      "NJ": {
+        "winner": "dem",
+        "repVotes": 1592841,
+        "demVotes": 2597831
+      },
+      "NM": {
+        "winner": "dem",
+        "repVotes": 401684,
+        "demVotes": 533073
+      },
+      "NY": {
+        "winner": "dem",
+        "repVotes": 3238908,
+        "demVotes": 5231647
+      },
+      "NC": {
+        "winner": "rep",
+        "repVotes": 2758775,
+        "demVotes": 2684292
+      },
+      "ND": {
+        "winner": "rep",
+        "repVotes": 240757,
+        "demVotes": 111052
+      },
+      "OH": {
+        "winner": "rep",
+        "repVotes": 3154834,
+        "demVotes": 2679166
+      },
+      "OK": {
+        "winner": "rep",
+        "repVotes": 1031192,
+        "demVotes": 420598
+      },
+      "OR": {
+        "winner": "dem",
+        "repVotes": 958648,
+        "demVotes": 1410404
+      },
+      "PA": {
+        "winner": "dem",
+        "repVotes": 3437874,
+        "demVotes": 3458882
+      },
+      "RI": {
+        "winner": "dem",
+        "repVotes": 181436,
+        "demVotes": 307486
+      },
+      "SC": {
+        "winner": "rep",
+        "repVotes": 1437480,
+        "demVotes": 1096332
+      },
+      "SD": {
+        "winner": "rep",
+        "repVotes": 261043,
+        "demVotes": 150471
+      },
+      "TN": {
+        "winner": "rep",
+        "repVotes": 1829852,
+        "demVotes": 1074272
+      },
+      "TX": {
+        "winner": "rep",
+        "repVotes": 5890167,
+        "demVotes": 5260666
+      },
+      "UT": {
+        "winner": "rep",
+        "repVotes": 598608,
+        "demVotes": 364621
+      },
+      "VT": {
+        "winner": "dem",
+        "repVotes": 112494,
+        "demVotes": 242814
+      },
+      "VA": {
+        "winner": "dem",
+        "repVotes": 1966723,
+        "demVotes": 2459493
+      },
+      "WA": {
+        "winner": "dem",
+        "repVotes": 1540923,
+        "demVotes": 2625167
+      },
+      "WV": {
+        "winner": "rep",
+        "repVotes": 412807,
+        "demVotes": 159025
+      },
+      "WI": {
+        "winner": "dem",
+        "repVotes": 1610075,
+        "demVotes": 1630866
+      },
+      "WY": {
+        "winner": "rep",
+        "repVotes": 193559,
+        "demVotes": 73541
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "evt-2020-1",
+      "title": "新冠疫情应对",
+      "date": "2020-03-13",
+      "content": "特朗普总统宣布全国紧急状态，新冠疫情在美国蔓延。疫情应对成为2020年竞选的核心议题，封锁措施、口罩强制令和经济救助等议题主导了政治讨论。",
+      "domain": "健康",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.05,
+        "rep_sad": 0.15,
+        "rep_angry": 0.2,
+        "dem_happy": 0.02,
+        "dem_sad": 0.35,
+        "dem_angry": 0.3,
+        "ind_happy": 0.03,
+        "ind_sad": 0.3,
+        "ind_angry": 0.2,
+        "rep_positive": -0.08,
+        "dem_positive": -0.02,
+        "ind_positive": -0.12
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2020-2",
+      "title": "乔治·弗洛伊德抗议 / 黑人命也是命运动",
+      "date": "2020-05-26",
+      "content": "明尼阿波利斯警方杀害乔治·弗洛伊德引发全国性抗议，黑人命也是命运动再度兴起。抗议活动蔓延至全部50个州，成为美国历史上规模最大的抗议运动之一。事件在警务、种族正义和法治问题上极化了选民。",
+      "domain": "社会",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.02,
+        "rep_sad": 0.1,
+        "rep_angry": 0.4,
+        "dem_happy": 0.05,
+        "dem_sad": 0.35,
+        "dem_angry": 0.25,
+        "ind_happy": 0.03,
+        "ind_sad": 0.25,
+        "ind_angry": 0.2,
+        "rep_positive": -0.05,
+        "dem_positive": 0.08,
+        "ind_positive": -0.05
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2020-3",
+      "title": "首场总统辩论",
+      "date": "2020-09-29",
+      "content": "特朗普与拜登的首场总统辩论被普遍认为是混乱和对抗性的。辩论中频繁打断和人身攻击，主持人难以维持秩序。辩论后民调显示拜登在未决定选民中略占优势。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.15,
+        "rep_sad": 0.05,
+        "rep_angry": 0.25,
+        "dem_happy": 0.1,
+        "dem_sad": 0.08,
+        "dem_angry": 0.35,
+        "ind_happy": 0.03,
+        "ind_sad": 0.1,
+        "ind_angry": 0.3,
+        "rep_positive": -0.03,
+        "dem_positive": 0.05,
+        "ind_positive": -0.08
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2020-4",
+      "title": "特朗普确诊新冠",
+      "date": "2020-10-02",
+      "content": "特朗普总统宣布他和第一夫人梅拉尼娅·特朗普新冠检测呈阳性。他在沃尔特·里德医疗中心住院三天。这一诊断打乱了竞选最后阶段，并引发对政府疫情应对的质疑。",
+      "domain": "健康",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.25,
+        "rep_angry": 0.1,
+        "dem_happy": 0.08,
+        "dem_sad": 0.1,
+        "dem_angry": 0.15,
+        "ind_happy": 0.02,
+        "ind_sad": 0.2,
+        "ind_angry": 0.1,
+        "rep_positive": -0.06,
+        "dem_positive": 0.03,
+        "ind_positive": -0.04
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2020-5",
+      "title": "选举日",
+      "date": "2020-11-03",
+      "content": "2020年总统选举投票率创历史新高，超过1.59亿张选票。由于大量邮寄选票，多个关键摇摆州的结果耗时数日才确定。拜登最终以306张选举人票击败特朗普的232票，但特朗普对结果提出质疑。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.1,
+        "rep_sad": 0.35,
+        "rep_angry": 0.4,
+        "dem_happy": 0.5,
+        "dem_sad": 0.05,
+        "dem_angry": 0.1,
+        "ind_happy": 0.2,
+        "ind_sad": 0.1,
+        "ind_angry": 0.15,
+        "rep_positive": -0.2,
+        "dem_positive": 0.25,
+        "ind_positive": 0.05
+      },
+      "status": "completed"
+    }
+  ],
+  "accuracy": {
+    "state_accuracy": 0.941,
+    "ev_error": 3,
+    "correctly_predicted": 48,
+    "total_states": 51
+  }
+}

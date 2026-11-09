@@ -1,0 +1,58 @@
+[
+  {
+    "id": "evt-1",
+    "title": "Biden-Trump TV Debate",
+    "date": "2024-06-27",
+    "content": "On June 27, 2024, Biden and Trump participated in a televised debate where Biden's performance was widely criticized, raising concerns about his age and fitness for office.",
+    "domain": "politics",
+    "country": "US",
+    "impact": {
+      "rep_happy": 0.4, "rep_sad": 0.05, "rep_angry": 0.1,
+      "dem_happy": 0.05, "dem_sad": 0.45, "dem_angry": 0.3,
+      "ind_happy": 0.1, "ind_sad": 0.15, "ind_angry": 0.2,
+      "rep_positive": 0.35, "dem_positive": -0.3, "ind_positive": -0.1
+    }
+  },
+  {
+    "id": "evt-2",
+    "title": "Trump Shot at Rally",
+    "date": "2024-07-13",
+    "content": "On July 13, 2024, former US President Donald Trump was shot during a rally in Pennsylvania but stood up and raised his fist to the crowd, showing resilience.",
+    "domain": "politics",
+    "country": "US",
+    "impact": {
+      "rep_happy": 0.3, "rep_sad": 0.1, "rep_angry": 0.5,
+      "dem_happy": 0.02, "dem_sad": 0.3, "dem_angry": 0.1,
+      "ind_happy": 0.05, "ind_sad": 0.35, "ind_angry": 0.3,
+      "rep_positive": 0.4, "dem_positive": -0.1, "ind_positive": 0.1
+    }
+  },
+  {
+    "id": "evt-3",
+    "title": "Trump Confirmed as Republican Nominee",
+    "date": "2024-07-15",
+    "content": "House Speaker Mike Johnson announced Trump as the Republican presidential nominee, consolidating party support.",
+    "domain": "politics",
+    "country": "US",
+    "impact": {
+      "rep_happy": 0.35, "rep_sad": 0.02, "rep_angry": 0.05,
+      "dem_happy": 0.03, "dem_sad": 0.15, "dem_angry": 0.3,
+      "ind_happy": 0.05, "ind_sad": 0.1, "ind_angry": 0.1,
+      "rep_positive": 0.3, "dem_positive": -0.15, "ind_positive": 0.0
+    }
+  },
+  {
+    "id": "evt-4",
+    "title": "Biden Withdraws, Endorses Harris",
+    "date": "2024-07-21",
+    "content": "On July 21, 2024, President Biden announced his withdrawal from the 2024 presidential race and endorsed Vice President Kamala Harris as the Democratic nominee.",
+    "domain": "politics",
+    "country": "US",
+    "impact": {
+      "rep_happy": 0.15, "rep_sad": 0.05, "rep_angry": 0.1,
+      "dem_happy": 0.3, "dem_sad": 0.2, "dem_angry": 0.1,
+      "ind_happy": 0.15, "ind_sad": 0.1, "ind_angry": 0.05,
+      "rep_positive": 0.1, "dem_positive": 0.2, "ind_positive": 0.1
+    }
+  }
+]

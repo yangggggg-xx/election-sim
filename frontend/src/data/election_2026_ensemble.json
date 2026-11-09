@@ -1,0 +1,1845 @@
+{
+  "year": 2026,
+  "type": "ensemble",
+  "providers_used": [
+    "qwen"
+  ],
+  "provider_names": {
+    "qwen": "Qwen-Plus"
+  },
+  "simulated": {
+    "rep_electoral_votes": 312,
+    "dem_electoral_votes": 226,
+    "state_predictions": {
+      "AL": {
+        "winner": "rep",
+        "confidence": 0.329,
+        "ev": 9
+      },
+      "AK": {
+        "winner": "rep",
+        "confidence": 0.177,
+        "ev": 3
+      },
+      "AZ": {
+        "winner": "rep",
+        "confidence": 0.058,
+        "ev": 11
+      },
+      "AR": {
+        "winner": "rep",
+        "confidence": 0.359,
+        "ev": 6
+      },
+      "CA": {
+        "winner": "dem",
+        "confidence": 0.281,
+        "ev": 54
+      },
+      "CO": {
+        "winner": "dem",
+        "confidence": 0.084,
+        "ev": 10
+      },
+      "CT": {
+        "winner": "dem",
+        "confidence": 0.175,
+        "ev": 7
+      },
+      "DE": {
+        "winner": "dem",
+        "confidence": 0.162,
+        "ev": 3
+      },
+      "DC": {
+        "winner": "dem",
+        "confidence": 0.5,
+        "ev": 3
+      },
+      "FL": {
+        "winner": "rep",
+        "confidence": 0.107,
+        "ev": 30
+      },
+      "GA": {
+        "winner": "rep",
+        "confidence": 0.058,
+        "ev": 16
+      },
+      "HI": {
+        "winner": "dem",
+        "confidence": 0.301,
+        "ev": 4
+      },
+      "ID": {
+        "winner": "rep",
+        "confidence": 0.45,
+        "ev": 4
+      },
+      "IL": {
+        "winner": "dem",
+        "confidence": 0.187,
+        "ev": 19
+      },
+      "IN": {
+        "winner": "rep",
+        "confidence": 0.32,
+        "ev": 11
+      },
+      "IA": {
+        "winner": "rep",
+        "confidence": 0.155,
+        "ev": 6
+      },
+      "KS": {
+        "winner": "rep",
+        "confidence": 0.221,
+        "ev": 6
+      },
+      "KY": {
+        "winner": "rep",
+        "confidence": 0.327,
+        "ev": 8
+      },
+      "LA": {
+        "winner": "rep",
+        "confidence": 0.234,
+        "ev": 8
+      },
+      "ME": {
+        "winner": "dem",
+        "confidence": 0.061,
+        "ev": 4
+      },
+      "MD": {
+        "winner": "dem",
+        "confidence": 0.288,
+        "ev": 10
+      },
+      "MA": {
+        "winner": "dem",
+        "confidence": 0.27,
+        "ev": 11
+      },
+      "MI": {
+        "winner": "rep",
+        "confidence": 0.034,
+        "ev": 15
+      },
+      "MN": {
+        "winner": "dem",
+        "confidence": 0.023,
+        "ev": 10
+      },
+      "MS": {
+        "winner": "rep",
+        "confidence": 0.239,
+        "ev": 6
+      },
+      "MO": {
+        "winner": "rep",
+        "confidence": 0.229,
+        "ev": 10
+      },
+      "MT": {
+        "winner": "rep",
+        "confidence": 0.24,
+        "ev": 4
+      },
+      "NE": {
+        "winner": "rep",
+        "confidence": 0.266,
+        "ev": 5
+      },
+      "NV": {
+        "winner": "rep",
+        "confidence": 0.033,
+        "ev": 6
+      },
+      "NH": {
+        "winner": "dem",
+        "confidence": 0.015,
+        "ev": 4
+      },
+      "NJ": {
+        "winner": "dem",
+        "confidence": 0.204,
+        "ev": 14
+      },
+      "NM": {
+        "winner": "dem",
+        "confidence": 0.081,
+        "ev": 5
+      },
+      "NY": {
+        "winner": "dem",
+        "confidence": 0.237,
+        "ev": 28
+      },
+      "NC": {
+        "winner": "rep",
+        "confidence": 0.085,
+        "ev": 16
+      },
+      "ND": {
+        "winner": "rep",
+        "confidence": 0.47,
+        "ev": 3
+      },
+      "OH": {
+        "winner": "rep",
+        "confidence": 0.156,
+        "ev": 17
+      },
+      "OK": {
+        "winner": "rep",
+        "confidence": 0.445,
+        "ev": 7
+      },
+      "OR": {
+        "winner": "dem",
+        "confidence": 0.16,
+        "ev": 8
+      },
+      "PA": {
+        "winner": "rep",
+        "confidence": 0.043,
+        "ev": 19
+      },
+      "RI": {
+        "winner": "dem",
+        "confidence": 0.214,
+        "ev": 4
+      },
+      "SC": {
+        "winner": "rep",
+        "confidence": 0.207,
+        "ev": 9
+      },
+      "SD": {
+        "winner": "rep",
+        "confidence": 0.34,
+        "ev": 3
+      },
+      "TN": {
+        "winner": "rep",
+        "confidence": 0.329,
+        "ev": 11
+      },
+      "TX": {
+        "winner": "rep",
+        "confidence": 0.127,
+        "ev": 40
+      },
+      "UT": {
+        "winner": "rep",
+        "confidence": 0.243,
+        "ev": 6
+      },
+      "VT": {
+        "winner": "dem",
+        "confidence": 0.316,
+        "ev": 3
+      },
+      "VA": {
+        "winner": "dem",
+        "confidence": 0.041,
+        "ev": 13
+      },
+      "WA": {
+        "winner": "dem",
+        "confidence": 0.204,
+        "ev": 12
+      },
+      "WV": {
+        "winner": "rep",
+        "confidence": 0.47,
+        "ev": 4
+      },
+      "WI": {
+        "winner": "rep",
+        "confidence": 0.054,
+        "ev": 10
+      },
+      "WY": {
+        "winner": "rep",
+        "confidence": 0.5,
+        "ev": 3
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "evt-2026-1",
+      "title": "特朗普第二任期就职与行政令风暴",
+      "date": "2025-01-20",
+      "content": "特朗普在国会大厦极端天气中宣誓就任第47任总统，JD·万斯任副总统。上任首日签署超100项行政令：宣布南部边境国家紧急状态、再次退出巴黎气候协定、退出世卫组织、赦免1月6日事件被告、冻结联邦招聘、下令大规模驱逐行动。如此大量的行动标志着强硬的'第二特朗普时代'。市场和盟国迅速重新评估政策。国内反应极度两极化——支持者庆祝果断行动，反对者谴责威权越界。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.35,
+        "rep_sad": 0.03,
+        "rep_angry": 0.12,
+        "rep_positive": 0.22,
+        "dem_happy": 0.02,
+        "dem_sad": 0.25,
+        "dem_angry": 0.42,
+        "dem_positive": 0.13,
+        "ind_happy": 0.04,
+        "ind_sad": 0.28,
+        "ind_angry": 0.33,
+        "ind_positive": 0.05
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2026-2",
+      "title": "关税战升级震动全球经济",
+      "date": "2025-04-02",
+      "content": "特朗普政府推出全面的'解放日'关税——对大多数进口商品征收10%基准关税，对等关税高达中国34%、加拿大和墨西哥25%。中国立即报复。标普500指数大幅下跌，电子产品和汽车消费价格飙升，依赖跨境供应链的小企业面临生存危机。农业州因中国取消农产品订单遭受重创。4月9日，多数国家关税暂停90天，但中国关税升至145%。制造业州和港口城市爆发抗议，反对生活成本上升和就业损失。",
+      "domain": "经济",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.25,
+        "rep_sad": 0.1,
+        "rep_angry": 0.3,
+        "rep_positive": 0.18,
+        "dem_happy": 0.03,
+        "dem_sad": 0.2,
+        "dem_angry": 0.4,
+        "dem_positive": 0.12,
+        "ind_happy": 0.04,
+        "ind_sad": 0.25,
+        "ind_angry": 0.3,
+        "ind_positive": -0.03
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2026-4",
+      "title": "移民搜捕与全国抗议浪潮",
+      "date": "2025-06-08",
+      "content": "强硬的移民执法导致洛杉矶、纽约和芝加哥大规模ICE搜捕行动。多座城市爆发抗议。特朗普总统将2000名加州国民警卫队联邦化，并部署700名海军陆战队员至洛杉矶，明确无视州长纽森的反对——这是自1965年以来总统首次未经州长同意这样做。纽森起诉联邦政府，称其违宪。民变法辩论占据头条。洛杉矶市中心实施宵禁。该事件成为现代美国历史上最严重的国内对抗之一。",
+      "domain": "安全",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.25,
+        "rep_sad": 0.03,
+        "rep_angry": 0.2,
+        "rep_positive": 0.18,
+        "dem_happy": 0.02,
+        "dem_sad": 0.22,
+        "dem_angry": 0.4,
+        "dem_positive": 0.12,
+        "ind_happy": 0.04,
+        "ind_sad": 0.25,
+        "ind_angry": 0.3,
+        "ind_positive": -0.03
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2026-5",
+      "title": "大规模税收与支出法案",
+      "date": "2025-07-01",
+      "content": "'一个大美丽法案'在参议院通过——一项大规模和解法案，使2017年特朗普减税永久化，取消小费和加班税，提高SALT扣除上限，同时以新的工作要求大幅削减医疗补助和食品券。国防和边境安全获得大量资金。通胀削减法案中的清洁能源税收抵免被撤销。该法案预计十年内增加3万亿美元以上国家赤字。民主党一致反对，称其是向富人输送利益、剥夺数百万人医疗保健。大规模街头抗议爆发。国会辩论激烈。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.32,
+        "rep_sad": 0.04,
+        "rep_angry": 0.08,
+        "rep_positive": 0.22,
+        "dem_happy": 0.03,
+        "dem_sad": 0.18,
+        "dem_angry": 0.38,
+        "dem_positive": 0.12,
+        "ind_happy": 0.06,
+        "ind_sad": 0.22,
+        "ind_angry": 0.28,
+        "ind_positive": -0.03
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2026-6",
+      "title": "美伊军事冲突升级",
+      "date": "2025-10-20",
+      "content": "以色列与伊朗冲突升级为直接军事对抗。以色列对伊朗军事和核相关设施发动大规模打击。伊朗以弹道导弹袭击以色列城市作为报复。美国直接介入冲突：B-2隐形轰炸机打击伊朗福尔多、纳坦兹和伊斯法罕核设施。油价飙升至90美元/桶以上。霍尔木兹海峡受到威胁。中国和俄罗斯谴责打击行动。国会在未经授权的战争权力问题上分裂。全球市场暴跌。'这是第三次世界大战吗？'占据每个新闻频道。全国军事部署增加。",
+      "domain": "安全",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.25,
+        "rep_sad": 0.1,
+        "rep_angry": 0.35,
+        "rep_positive": 0.18,
+        "dem_happy": 0.03,
+        "dem_sad": 0.4,
+        "dem_angry": 0.25,
+        "dem_positive": 0.08,
+        "ind_happy": 0.05,
+        "ind_sad": 0.35,
+        "ind_angry": 0.3,
+        "ind_positive": -0.02
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2026-7",
+      "title": "中美贸易与科技外交峰会",
+      "date": "2026-05-15",
+      "content": "中美之间举行高级别外交峰会——这是多年来的首次此类会晤。峰会涵盖贸易减免框架、AI治理合作、能源伙伴关系和区域缓和。宣布了关税减免框架协议，以及AI安全标准合作。股市因贸易乐观情绪上涨。然而，美国媒体深度分裂：保守派媒体称之为外交胜利，自由派媒体批评在人权和地区安全上的让步。'缓和还是绥靖'的政治辩论主导了中期选举。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.32,
+        "rep_sad": 0.04,
+        "rep_angry": 0.08,
+        "rep_positive": 0.22,
+        "dem_happy": 0.03,
+        "dem_sad": 0.25,
+        "dem_angry": 0.3,
+        "dem_positive": 0.12,
+        "ind_happy": 0.1,
+        "ind_sad": 0.18,
+        "ind_angry": 0.22,
+        "ind_positive": 0.05
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2026-9",
+      "title": "美伊停火与石油市场逆转",
+      "date": "2026-06-10",
+      "content": "经过数月升级，美国和伊朗接近达成停火协议。战争风险骤降。国际油价剧烈波动——从90美元以上跌向60美元。全球市场急剧逆转。能源成本下降改善通胀预期。投资市场重新定价。特朗普宣称这是外交胜利，但批评者质疑此前数月冲突的代价。快速逆转令选民情绪震荡——如释重负中夹杂着对混乱的愤怒。石油冲击对消费价格和供应链调整的经济影响持续存在。",
+      "domain": "经济",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.32,
+        "rep_sad": 0.08,
+        "rep_angry": 0.15,
+        "rep_positive": 0.22,
+        "dem_happy": 0.04,
+        "dem_sad": 0.25,
+        "dem_angry": 0.2,
+        "dem_positive": 0.08,
+        "ind_happy": 0.1,
+        "ind_sad": 0.22,
+        "ind_angry": 0.28,
+        "ind_positive": 0.02
+      },
+      "disagreement": {
+        "rep_happy": 0.03,
+        "rep_sad": 0.03,
+        "rep_angry": 0.03,
+        "rep_positive": 0.03,
+        "dem_happy": 0.03,
+        "dem_sad": 0.03,
+        "dem_angry": 0.03,
+        "dem_positive": 0.03,
+        "ind_happy": 0.03,
+        "ind_sad": 0.03,
+        "ind_angry": 0.03,
+        "ind_positive": 0.03
+      },
+      "status": "completed"
+    }
+  ],
+  "emotion_waves": [
+    {
+      "event_id": "evt-2026-1",
+      "title": "特朗普第二任期就职与行政令风暴",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.35,
+          "rep_sad": 0.03,
+          "rep_angry": 0.12,
+          "rep_positive": 0.22,
+          "dem_happy": 0.02,
+          "dem_sad": 0.25,
+          "dem_angry": 0.42,
+          "dem_positive": 0.13,
+          "ind_happy": 0.04,
+          "ind_sad": 0.28,
+          "ind_angry": 0.33,
+          "ind_positive": 0.05
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.251,
+          "rep_sad": 0.037,
+          "rep_angry": 0.107,
+          "rep_positive": 0.147,
+          "dem_happy": 0.03,
+          "dem_sad": 0.184,
+          "dem_angry": 0.308,
+          "dem_positive": 0.087,
+          "ind_happy": 0.043,
+          "ind_sad": 0.204,
+          "ind_angry": 0.248,
+          "ind_positive": 0.034
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.185,
+          "rep_sad": 0.041,
+          "rep_angry": 0.098,
+          "rep_positive": 0.099,
+          "dem_happy": 0.037,
+          "dem_sad": 0.14,
+          "dem_angry": 0.233,
+          "dem_positive": 0.058,
+          "ind_happy": 0.046,
+          "ind_sad": 0.153,
+          "ind_angry": 0.192,
+          "ind_positive": 0.022
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.14,
+          "rep_sad": 0.044,
+          "rep_angry": 0.092,
+          "rep_positive": 0.066,
+          "dem_happy": 0.041,
+          "dem_sad": 0.11,
+          "dem_angry": 0.182,
+          "dem_positive": 0.039,
+          "ind_happy": 0.047,
+          "ind_sad": 0.119,
+          "ind_angry": 0.155,
+          "ind_positive": 0.015
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.111,
+          "rep_sad": 0.046,
+          "rep_angry": 0.088,
+          "rep_positive": 0.044,
+          "dem_happy": 0.044,
+          "dem_sad": 0.09,
+          "dem_angry": 0.149,
+          "dem_positive": 0.026,
+          "ind_happy": 0.048,
+          "ind_sad": 0.096,
+          "ind_angry": 0.13,
+          "ind_positive": 0.01
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.091,
+          "rep_sad": 0.047,
+          "rep_angry": 0.085,
+          "rep_positive": 0.03,
+          "dem_happy": 0.046,
+          "dem_sad": 0.077,
+          "dem_angry": 0.126,
+          "dem_positive": 0.018,
+          "ind_happy": 0.049,
+          "ind_sad": 0.081,
+          "ind_angry": 0.114,
+          "ind_positive": 0.007
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.077,
+          "rep_sad": 0.048,
+          "rep_angry": 0.084,
+          "rep_positive": 0.02,
+          "dem_happy": 0.047,
+          "dem_sad": 0.068,
+          "dem_angry": 0.111,
+          "dem_positive": 0.012,
+          "ind_happy": 0.049,
+          "ind_sad": 0.071,
+          "ind_angry": 0.103,
+          "ind_positive": 0.005
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.068,
+          "rep_sad": 0.049,
+          "rep_angry": 0.082,
+          "rep_positive": 0.013,
+          "dem_happy": 0.048,
+          "dem_sad": 0.062,
+          "dem_angry": 0.101,
+          "dem_positive": 0.008,
+          "ind_happy": 0.049,
+          "ind_sad": 0.064,
+          "ind_angry": 0.095,
+          "ind_positive": 0.003
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2026-2",
+      "title": "关税战升级震动全球经济",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.25,
+          "rep_sad": 0.1,
+          "rep_angry": 0.3,
+          "rep_positive": 0.18,
+          "dem_happy": 0.03,
+          "dem_sad": 0.2,
+          "dem_angry": 0.4,
+          "dem_positive": 0.12,
+          "ind_happy": 0.04,
+          "ind_sad": 0.25,
+          "ind_angry": 0.3,
+          "ind_positive": -0.03
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.184,
+          "rep_sad": 0.084,
+          "rep_angry": 0.227,
+          "rep_positive": 0.121,
+          "dem_happy": 0.037,
+          "dem_sad": 0.151,
+          "dem_angry": 0.295,
+          "dem_positive": 0.08,
+          "ind_happy": 0.043,
+          "ind_sad": 0.184,
+          "ind_angry": 0.227,
+          "ind_positive": -0.02
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.14,
+          "rep_sad": 0.072,
+          "rep_angry": 0.179,
+          "rep_positive": 0.081,
+          "dem_happy": 0.041,
+          "dem_sad": 0.117,
+          "dem_angry": 0.224,
+          "dem_positive": 0.054,
+          "ind_happy": 0.046,
+          "ind_sad": 0.14,
+          "ind_angry": 0.179,
+          "ind_positive": -0.013
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.11,
+          "rep_sad": 0.065,
+          "rep_angry": 0.146,
+          "rep_positive": 0.054,
+          "dem_happy": 0.044,
+          "dem_sad": 0.095,
+          "dem_angry": 0.176,
+          "dem_positive": 0.036,
+          "ind_happy": 0.047,
+          "ind_sad": 0.11,
+          "ind_angry": 0.146,
+          "ind_positive": -0.009
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.09,
+          "rep_sad": 0.06,
+          "rep_angry": 0.124,
+          "rep_positive": 0.036,
+          "dem_happy": 0.046,
+          "dem_sad": 0.08,
+          "dem_angry": 0.145,
+          "dem_positive": 0.024,
+          "ind_happy": 0.048,
+          "ind_sad": 0.09,
+          "ind_angry": 0.124,
+          "ind_positive": -0.006
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.077,
+          "rep_sad": 0.057,
+          "rep_angry": 0.11,
+          "rep_positive": 0.024,
+          "dem_happy": 0.047,
+          "dem_sad": 0.07,
+          "dem_angry": 0.123,
+          "dem_positive": 0.016,
+          "ind_happy": 0.049,
+          "ind_sad": 0.077,
+          "ind_angry": 0.11,
+          "ind_positive": -0.004
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.068,
+          "rep_sad": 0.055,
+          "rep_angry": 0.1,
+          "rep_positive": 0.016,
+          "dem_happy": 0.048,
+          "dem_sad": 0.064,
+          "dem_angry": 0.109,
+          "dem_positive": 0.011,
+          "ind_happy": 0.049,
+          "ind_sad": 0.068,
+          "ind_angry": 0.1,
+          "ind_positive": -0.003
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.062,
+          "rep_sad": 0.053,
+          "rep_angry": 0.093,
+          "rep_positive": 0.011,
+          "dem_happy": 0.049,
+          "dem_sad": 0.059,
+          "dem_angry": 0.099,
+          "dem_positive": 0.007,
+          "ind_happy": 0.049,
+          "ind_sad": 0.062,
+          "ind_angry": 0.093,
+          "ind_positive": -0.002
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2026-4",
+      "title": "移民搜捕与全国抗议浪潮",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.25,
+          "rep_sad": 0.03,
+          "rep_angry": 0.2,
+          "rep_positive": 0.18,
+          "dem_happy": 0.02,
+          "dem_sad": 0.22,
+          "dem_angry": 0.4,
+          "dem_positive": 0.12,
+          "ind_happy": 0.04,
+          "ind_sad": 0.25,
+          "ind_angry": 0.3,
+          "ind_positive": -0.03
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.184,
+          "rep_sad": 0.037,
+          "rep_angry": 0.16,
+          "rep_positive": 0.121,
+          "dem_happy": 0.03,
+          "dem_sad": 0.164,
+          "dem_angry": 0.295,
+          "dem_positive": 0.08,
+          "ind_happy": 0.043,
+          "ind_sad": 0.184,
+          "ind_angry": 0.227,
+          "ind_positive": -0.02
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.14,
+          "rep_sad": 0.041,
+          "rep_angry": 0.134,
+          "rep_positive": 0.081,
+          "dem_happy": 0.037,
+          "dem_sad": 0.126,
+          "dem_angry": 0.224,
+          "dem_positive": 0.054,
+          "ind_happy": 0.046,
+          "ind_sad": 0.14,
+          "ind_angry": 0.179,
+          "ind_positive": -0.013
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.11,
+          "rep_sad": 0.044,
+          "rep_angry": 0.116,
+          "rep_positive": 0.054,
+          "dem_happy": 0.041,
+          "dem_sad": 0.101,
+          "dem_angry": 0.176,
+          "dem_positive": 0.036,
+          "ind_happy": 0.047,
+          "ind_sad": 0.11,
+          "ind_angry": 0.146,
+          "ind_positive": -0.009
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.09,
+          "rep_sad": 0.046,
+          "rep_angry": 0.104,
+          "rep_positive": 0.036,
+          "dem_happy": 0.044,
+          "dem_sad": 0.084,
+          "dem_angry": 0.145,
+          "dem_positive": 0.024,
+          "ind_happy": 0.048,
+          "ind_sad": 0.09,
+          "ind_angry": 0.124,
+          "ind_positive": -0.006
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.077,
+          "rep_sad": 0.047,
+          "rep_angry": 0.096,
+          "rep_positive": 0.024,
+          "dem_happy": 0.046,
+          "dem_sad": 0.073,
+          "dem_angry": 0.123,
+          "dem_positive": 0.016,
+          "ind_happy": 0.049,
+          "ind_sad": 0.077,
+          "ind_angry": 0.11,
+          "ind_positive": -0.004
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.068,
+          "rep_sad": 0.048,
+          "rep_angry": 0.091,
+          "rep_positive": 0.016,
+          "dem_happy": 0.047,
+          "dem_sad": 0.065,
+          "dem_angry": 0.109,
+          "dem_positive": 0.011,
+          "ind_happy": 0.049,
+          "ind_sad": 0.068,
+          "ind_angry": 0.1,
+          "ind_positive": -0.003
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.062,
+          "rep_sad": 0.049,
+          "rep_angry": 0.087,
+          "rep_positive": 0.011,
+          "dem_happy": 0.048,
+          "dem_sad": 0.06,
+          "dem_angry": 0.099,
+          "dem_positive": 0.007,
+          "ind_happy": 0.049,
+          "ind_sad": 0.062,
+          "ind_angry": 0.093,
+          "ind_positive": -0.002
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2026-5",
+      "title": "大规模税收与支出法案",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.32,
+          "rep_sad": 0.04,
+          "rep_angry": 0.08,
+          "rep_positive": 0.22,
+          "dem_happy": 0.03,
+          "dem_sad": 0.18,
+          "dem_angry": 0.38,
+          "dem_positive": 0.12,
+          "ind_happy": 0.06,
+          "ind_sad": 0.22,
+          "ind_angry": 0.28,
+          "ind_positive": -0.03
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.231,
+          "rep_sad": 0.043,
+          "rep_angry": 0.08,
+          "rep_positive": 0.147,
+          "dem_happy": 0.037,
+          "dem_sad": 0.137,
+          "dem_angry": 0.281,
+          "dem_positive": 0.08,
+          "ind_happy": 0.057,
+          "ind_sad": 0.164,
+          "ind_angry": 0.214,
+          "ind_positive": -0.02
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.171,
+          "rep_sad": 0.046,
+          "rep_angry": 0.08,
+          "rep_positive": 0.099,
+          "dem_happy": 0.041,
+          "dem_sad": 0.108,
+          "dem_angry": 0.215,
+          "dem_positive": 0.054,
+          "ind_happy": 0.054,
+          "ind_sad": 0.126,
+          "ind_angry": 0.17,
+          "ind_positive": -0.013
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.131,
+          "rep_sad": 0.047,
+          "rep_angry": 0.08,
+          "rep_positive": 0.066,
+          "dem_happy": 0.044,
+          "dem_sad": 0.089,
+          "dem_angry": 0.17,
+          "dem_positive": 0.036,
+          "ind_happy": 0.053,
+          "ind_sad": 0.101,
+          "ind_angry": 0.14,
+          "ind_positive": -0.009
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.105,
+          "rep_sad": 0.048,
+          "rep_angry": 0.08,
+          "rep_positive": 0.044,
+          "dem_happy": 0.046,
+          "dem_sad": 0.076,
+          "dem_angry": 0.141,
+          "dem_positive": 0.024,
+          "ind_happy": 0.052,
+          "ind_sad": 0.084,
+          "ind_angry": 0.12,
+          "ind_positive": -0.006
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.087,
+          "rep_sad": 0.049,
+          "rep_angry": 0.08,
+          "rep_positive": 0.03,
+          "dem_happy": 0.047,
+          "dem_sad": 0.068,
+          "dem_angry": 0.121,
+          "dem_positive": 0.016,
+          "ind_happy": 0.051,
+          "ind_sad": 0.073,
+          "ind_angry": 0.107,
+          "ind_positive": -0.004
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.074,
+          "rep_sad": 0.049,
+          "rep_angry": 0.08,
+          "rep_positive": 0.02,
+          "dem_happy": 0.048,
+          "dem_sad": 0.062,
+          "dem_angry": 0.107,
+          "dem_positive": 0.011,
+          "ind_happy": 0.051,
+          "ind_sad": 0.065,
+          "ind_angry": 0.098,
+          "ind_positive": -0.003
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.066,
+          "rep_sad": 0.049,
+          "rep_angry": 0.08,
+          "rep_positive": 0.013,
+          "dem_happy": 0.049,
+          "dem_sad": 0.058,
+          "dem_angry": 0.098,
+          "dem_positive": 0.007,
+          "ind_happy": 0.051,
+          "ind_sad": 0.06,
+          "ind_angry": 0.092,
+          "ind_positive": -0.002
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2026-6",
+      "title": "美伊军事冲突升级",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.25,
+          "rep_sad": 0.1,
+          "rep_angry": 0.35,
+          "rep_positive": 0.18,
+          "dem_happy": 0.03,
+          "dem_sad": 0.4,
+          "dem_angry": 0.25,
+          "dem_positive": 0.08,
+          "ind_happy": 0.05,
+          "ind_sad": 0.35,
+          "ind_angry": 0.3,
+          "ind_positive": -0.02
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.184,
+          "rep_sad": 0.084,
+          "rep_angry": 0.261,
+          "rep_positive": 0.121,
+          "dem_happy": 0.037,
+          "dem_sad": 0.285,
+          "dem_angry": 0.194,
+          "dem_positive": 0.054,
+          "ind_happy": 0.05,
+          "ind_sad": 0.251,
+          "ind_angry": 0.227,
+          "ind_positive": -0.013
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.14,
+          "rep_sad": 0.072,
+          "rep_angry": 0.201,
+          "rep_positive": 0.081,
+          "dem_happy": 0.041,
+          "dem_sad": 0.207,
+          "dem_angry": 0.156,
+          "dem_positive": 0.036,
+          "ind_happy": 0.05,
+          "ind_sad": 0.185,
+          "ind_angry": 0.179,
+          "ind_positive": -0.009
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.11,
+          "rep_sad": 0.065,
+          "rep_angry": 0.161,
+          "rep_positive": 0.054,
+          "dem_happy": 0.044,
+          "dem_sad": 0.155,
+          "dem_angry": 0.131,
+          "dem_positive": 0.024,
+          "ind_happy": 0.05,
+          "ind_sad": 0.14,
+          "ind_angry": 0.146,
+          "ind_positive": -0.006
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.09,
+          "rep_sad": 0.06,
+          "rep_angry": 0.135,
+          "rep_positive": 0.036,
+          "dem_happy": 0.046,
+          "dem_sad": 0.121,
+          "dem_angry": 0.114,
+          "dem_positive": 0.016,
+          "ind_happy": 0.05,
+          "ind_sad": 0.111,
+          "ind_angry": 0.124,
+          "ind_positive": -0.004
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.077,
+          "rep_sad": 0.057,
+          "rep_angry": 0.117,
+          "rep_positive": 0.024,
+          "dem_happy": 0.047,
+          "dem_sad": 0.097,
+          "dem_angry": 0.103,
+          "dem_positive": 0.011,
+          "ind_happy": 0.05,
+          "ind_sad": 0.091,
+          "ind_angry": 0.11,
+          "ind_positive": -0.003
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.068,
+          "rep_sad": 0.055,
+          "rep_angry": 0.104,
+          "rep_positive": 0.016,
+          "dem_happy": 0.048,
+          "dem_sad": 0.082,
+          "dem_angry": 0.095,
+          "dem_positive": 0.007,
+          "ind_happy": 0.05,
+          "ind_sad": 0.077,
+          "ind_angry": 0.1,
+          "ind_positive": -0.002
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.062,
+          "rep_sad": 0.053,
+          "rep_angry": 0.096,
+          "rep_positive": 0.011,
+          "dem_happy": 0.049,
+          "dem_sad": 0.071,
+          "dem_angry": 0.09,
+          "dem_positive": 0.005,
+          "ind_happy": 0.05,
+          "ind_sad": 0.068,
+          "ind_angry": 0.093,
+          "ind_positive": -0.001
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2026-7",
+      "title": "中美贸易与科技外交峰会",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.32,
+          "rep_sad": 0.04,
+          "rep_angry": 0.08,
+          "rep_positive": 0.22,
+          "dem_happy": 0.03,
+          "dem_sad": 0.25,
+          "dem_angry": 0.3,
+          "dem_positive": 0.12,
+          "ind_happy": 0.1,
+          "ind_sad": 0.18,
+          "ind_angry": 0.22,
+          "ind_positive": 0.05
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.231,
+          "rep_sad": 0.043,
+          "rep_angry": 0.08,
+          "rep_positive": 0.147,
+          "dem_happy": 0.037,
+          "dem_sad": 0.184,
+          "dem_angry": 0.227,
+          "dem_positive": 0.08,
+          "ind_happy": 0.084,
+          "ind_sad": 0.137,
+          "ind_angry": 0.174,
+          "ind_positive": 0.034
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.171,
+          "rep_sad": 0.046,
+          "rep_angry": 0.08,
+          "rep_positive": 0.099,
+          "dem_happy": 0.041,
+          "dem_sad": 0.14,
+          "dem_angry": 0.179,
+          "dem_positive": 0.054,
+          "ind_happy": 0.072,
+          "ind_sad": 0.108,
+          "ind_angry": 0.143,
+          "ind_positive": 0.022
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.131,
+          "rep_sad": 0.047,
+          "rep_angry": 0.08,
+          "rep_positive": 0.066,
+          "dem_happy": 0.044,
+          "dem_sad": 0.11,
+          "dem_angry": 0.146,
+          "dem_positive": 0.036,
+          "ind_happy": 0.065,
+          "ind_sad": 0.089,
+          "ind_angry": 0.122,
+          "ind_positive": 0.015
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.105,
+          "rep_sad": 0.048,
+          "rep_angry": 0.08,
+          "rep_positive": 0.044,
+          "dem_happy": 0.046,
+          "dem_sad": 0.09,
+          "dem_angry": 0.124,
+          "dem_positive": 0.024,
+          "ind_happy": 0.06,
+          "ind_sad": 0.076,
+          "ind_angry": 0.108,
+          "ind_positive": 0.01
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.087,
+          "rep_sad": 0.049,
+          "rep_angry": 0.08,
+          "rep_positive": 0.03,
+          "dem_happy": 0.047,
+          "dem_sad": 0.077,
+          "dem_angry": 0.11,
+          "dem_positive": 0.016,
+          "ind_happy": 0.057,
+          "ind_sad": 0.068,
+          "ind_angry": 0.099,
+          "ind_positive": 0.007
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.074,
+          "rep_sad": 0.049,
+          "rep_angry": 0.08,
+          "rep_positive": 0.02,
+          "dem_happy": 0.048,
+          "dem_sad": 0.068,
+          "dem_angry": 0.1,
+          "dem_positive": 0.011,
+          "ind_happy": 0.055,
+          "ind_sad": 0.062,
+          "ind_angry": 0.093,
+          "ind_positive": 0.005
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.066,
+          "rep_sad": 0.049,
+          "rep_angry": 0.08,
+          "rep_positive": 0.013,
+          "dem_happy": 0.049,
+          "dem_sad": 0.062,
+          "dem_angry": 0.093,
+          "dem_positive": 0.007,
+          "ind_happy": 0.053,
+          "ind_sad": 0.058,
+          "ind_angry": 0.089,
+          "ind_positive": 0.003
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2026-9",
+      "title": "美伊停火与石油市场逆转",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "rep_positive": 0,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "dem_positive": 0,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.32,
+          "rep_sad": 0.08,
+          "rep_angry": 0.15,
+          "rep_positive": 0.22,
+          "dem_happy": 0.04,
+          "dem_sad": 0.25,
+          "dem_angry": 0.2,
+          "dem_positive": 0.08,
+          "ind_happy": 0.1,
+          "ind_sad": 0.22,
+          "ind_angry": 0.28,
+          "ind_positive": 0.02
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.231,
+          "rep_sad": 0.07,
+          "rep_angry": 0.127,
+          "rep_positive": 0.147,
+          "dem_happy": 0.043,
+          "dem_sad": 0.184,
+          "dem_angry": 0.16,
+          "dem_positive": 0.054,
+          "ind_happy": 0.084,
+          "ind_sad": 0.164,
+          "ind_angry": 0.214,
+          "ind_positive": 0.013
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.171,
+          "rep_sad": 0.063,
+          "rep_angry": 0.111,
+          "rep_positive": 0.099,
+          "dem_happy": 0.046,
+          "dem_sad": 0.14,
+          "dem_angry": 0.134,
+          "dem_positive": 0.036,
+          "ind_happy": 0.072,
+          "ind_sad": 0.126,
+          "ind_angry": 0.17,
+          "ind_positive": 0.009
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.131,
+          "rep_sad": 0.059,
+          "rep_angry": 0.101,
+          "rep_positive": 0.066,
+          "dem_happy": 0.047,
+          "dem_sad": 0.11,
+          "dem_angry": 0.116,
+          "dem_positive": 0.024,
+          "ind_happy": 0.065,
+          "ind_sad": 0.101,
+          "ind_angry": 0.14,
+          "ind_positive": 0.006
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.105,
+          "rep_sad": 0.056,
+          "rep_angry": 0.094,
+          "rep_positive": 0.044,
+          "dem_happy": 0.048,
+          "dem_sad": 0.09,
+          "dem_angry": 0.104,
+          "dem_positive": 0.016,
+          "ind_happy": 0.06,
+          "ind_sad": 0.084,
+          "ind_angry": 0.12,
+          "ind_positive": 0.004
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.087,
+          "rep_sad": 0.054,
+          "rep_angry": 0.089,
+          "rep_positive": 0.03,
+          "dem_happy": 0.049,
+          "dem_sad": 0.077,
+          "dem_angry": 0.096,
+          "dem_positive": 0.011,
+          "ind_happy": 0.057,
+          "ind_sad": 0.073,
+          "ind_angry": 0.107,
+          "ind_positive": 0.003
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.074,
+          "rep_sad": 0.053,
+          "rep_angry": 0.086,
+          "rep_positive": 0.02,
+          "dem_happy": 0.049,
+          "dem_sad": 0.068,
+          "dem_angry": 0.091,
+          "dem_positive": 0.007,
+          "ind_happy": 0.055,
+          "ind_sad": 0.065,
+          "ind_angry": 0.098,
+          "ind_positive": 0.002
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.066,
+          "rep_sad": 0.052,
+          "rep_angry": 0.084,
+          "rep_positive": 0.013,
+          "dem_happy": 0.049,
+          "dem_sad": 0.062,
+          "dem_angry": 0.087,
+          "dem_positive": 0.005,
+          "ind_happy": 0.053,
+          "ind_sad": 0.06,
+          "ind_angry": 0.092,
+          "ind_positive": 0.001
+        }
+      ]
+    }
+  ],
+  "monte_carlo": {
+    "n_simulations": 200,
+    "rep_win_probability": 1.0,
+    "dem_win_probability": 0.0,
+    "rep_ev_median": 312,
+    "dem_ev_median": 226,
+    "rep_ev_p5": 312,
+    "rep_ev_p95": 312,
+    "dem_ev_p5": 226,
+    "dem_ev_p95": 226,
+    "rep_ev_mean": 312.2,
+    "dem_ev_mean": 225.8,
+    "state_probabilities": {
+      "KY": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "NE": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "NH": {
+        "rep_probability": 0.025,
+        "dem_probability": 0.975
+      },
+      "VT": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "CA": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "PA": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "CO": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "SD": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "UT": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "WV": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "MT": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "MD": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "NV": {
+        "rep_probability": 0.995,
+        "dem_probability": 0.005
+      },
+      "TN": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "AK": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "ND": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "OH": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "OK": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "IL": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "DC": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "ME": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "NJ": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "GA": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "ID": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "MO": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "IN": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "WY": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "WA": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "IA": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "KS": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "MA": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "FL": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "RI": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "NY": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "NC": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "MN": {
+        "rep_probability": 0.01,
+        "dem_probability": 0.99
+      },
+      "AL": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "AZ": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "WI": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "TX": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "MS": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "SC": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "AR": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "NM": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "VA": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "OR": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "MI": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "DE": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "CT": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      },
+      "LA": {
+        "rep_probability": 1.0,
+        "dem_probability": 0.0
+      },
+      "HI": {
+        "rep_probability": 0.0,
+        "dem_probability": 1.0
+      }
+    }
+  }
+}

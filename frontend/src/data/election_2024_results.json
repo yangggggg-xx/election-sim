@@ -1,0 +1,941 @@
+{
+  "year": 2024,
+  "rep_candidate": "Trump",
+  "dem_candidate": "Harris",
+  "simulated": {
+    "rep_electoral_votes": 309,
+    "dem_electoral_votes": 229,
+    "state_predictions": {
+      "MT": {
+        "winner": "rep",
+        "confidence": 0.169,
+        "ev": 4
+      },
+      "ID": {
+        "winner": "rep",
+        "confidence": 0.352,
+        "ev": 4
+      },
+      "ND": {
+        "winner": "rep",
+        "confidence": 0.372,
+        "ev": 3
+      },
+      "SD": {
+        "winner": "rep",
+        "confidence": 0.269,
+        "ev": 3
+      },
+      "WY": {
+        "winner": "rep",
+        "confidence": 0.449,
+        "ev": 3
+      },
+      "NE": {
+        "winner": "rep",
+        "confidence": 0.195,
+        "ev": 5
+      },
+      "KS": {
+        "winner": "rep",
+        "confidence": 0.15,
+        "ev": 6
+      },
+      "OK": {
+        "winner": "rep",
+        "confidence": 0.347,
+        "ev": 7
+      },
+      "TX": {
+        "winner": "rep",
+        "confidence": 0.085,
+        "ev": 40
+      },
+      "MN": {
+        "winner": "rep",
+        "confidence": 0.083,
+        "ev": 10
+      },
+      "IA": {
+        "winner": "rep",
+        "confidence": 0.084,
+        "ev": 6
+      },
+      "MO": {
+        "winner": "rep",
+        "confidence": 0.159,
+        "ev": 10
+      },
+      "AR": {
+        "winner": "rep",
+        "confidence": 0.288,
+        "ev": 6
+      },
+      "LA": {
+        "winner": "rep",
+        "confidence": 0.163,
+        "ev": 8
+      },
+      "WI": {
+        "winner": "rep",
+        "confidence": 0.009,
+        "ev": 10
+      },
+      "MI": {
+        "winner": "rep",
+        "confidence": 0.003,
+        "ev": 15
+      },
+      "IN": {
+        "winner": "rep",
+        "confidence": 0.249,
+        "ev": 11
+      },
+      "OH": {
+        "winner": "rep",
+        "confidence": 0.085,
+        "ev": 17
+      },
+      "KY": {
+        "winner": "rep",
+        "confidence": 0.256,
+        "ev": 8
+      },
+      "TN": {
+        "winner": "rep",
+        "confidence": 0.258,
+        "ev": 11
+      },
+      "NC": {
+        "winner": "rep",
+        "confidence": 0.028,
+        "ev": 16
+      },
+      "SC": {
+        "winner": "rep",
+        "confidence": 0.136,
+        "ev": 9
+      },
+      "AL": {
+        "winner": "rep",
+        "confidence": 0.258,
+        "ev": 9
+      },
+      "MS": {
+        "winner": "rep",
+        "confidence": 0.168,
+        "ev": 6
+      },
+      "FL": {
+        "winner": "rep",
+        "confidence": 0.079,
+        "ev": 30
+      },
+      "PA": {
+        "winner": "rep",
+        "confidence": 0.018,
+        "ev": 19
+      },
+      "NJ": {
+        "winner": "rep",
+        "confidence": 0.234,
+        "ev": 14
+      },
+      "WV": {
+        "winner": "rep",
+        "confidence": 0.372,
+        "ev": 4
+      },
+      "NV": {
+        "winner": "rep",
+        "confidence": 0.016,
+        "ev": 6
+      },
+      "UT": {
+        "winner": "rep",
+        "confidence": 0.172,
+        "ev": 6
+      },
+      "AK": {
+        "winner": "rep",
+        "confidence": 0.106,
+        "ev": 3
+      },
+      "WA": {
+        "winner": "dem",
+        "confidence": 0.235,
+        "ev": 12
+      },
+      "OR": {
+        "winner": "dem",
+        "confidence": 0.19,
+        "ev": 8
+      },
+      "CA": {
+        "winner": "dem",
+        "confidence": 0.332,
+        "ev": 54
+      },
+      "CO": {
+        "winner": "dem",
+        "confidence": 0.145,
+        "ev": 10
+      },
+      "AZ": {
+        "winner": "dem",
+        "confidence": 0.026,
+        "ev": 11
+      },
+      "NM": {
+        "winner": "dem",
+        "confidence": 0.141,
+        "ev": 5
+      },
+      "IL": {
+        "winner": "dem",
+        "confidence": 0.218,
+        "ev": 19
+      },
+      "NY": {
+        "winner": "dem",
+        "confidence": 0.268,
+        "ev": 28
+      },
+      "VA": {
+        "winner": "dem",
+        "confidence": 0.102,
+        "ev": 13
+      },
+      "GA": {
+        "winner": "dem",
+        "confidence": 0.038,
+        "ev": 16
+      },
+      "ME": {
+        "winner": "dem",
+        "confidence": 0.121,
+        "ev": 4
+      },
+      "VT": {
+        "winner": "dem",
+        "confidence": 0.368,
+        "ev": 3
+      },
+      "NH": {
+        "winner": "dem",
+        "confidence": 0.076,
+        "ev": 4
+      },
+      "MA": {
+        "winner": "dem",
+        "confidence": 0.321,
+        "ev": 11
+      },
+      "RI": {
+        "winner": "dem",
+        "confidence": 0.245,
+        "ev": 4
+      },
+      "CT": {
+        "winner": "dem",
+        "confidence": 0.206,
+        "ev": 7
+      },
+      "DE": {
+        "winner": "dem",
+        "confidence": 0.193,
+        "ev": 3
+      },
+      "MD": {
+        "winner": "dem",
+        "confidence": 0.339,
+        "ev": 10
+      },
+      "DC": {
+        "winner": "dem",
+        "confidence": 0.87,
+        "ev": 3
+      },
+      "HI": {
+        "winner": "dem",
+        "confidence": 0.352,
+        "ev": 4
+      }
+    }
+  },
+  "actual": {
+    "rep_electoral_votes": 312,
+    "dem_electoral_votes": 226,
+    "state_results": {
+      "MT": {
+        "winner": "rep",
+        "repVotes": 343552,
+        "demVotes": 243982
+      },
+      "ID": {
+        "winner": "rep",
+        "repVotes": 554119,
+        "demVotes": 265583
+      },
+      "ND": {
+        "winner": "rep",
+        "repVotes": 240757,
+        "demVotes": 110270
+      },
+      "SD": {
+        "winner": "rep",
+        "repVotes": 261043,
+        "demVotes": 150471
+      },
+      "WY": {
+        "winner": "rep",
+        "repVotes": 193559,
+        "demVotes": 73591
+      },
+      "NE": {
+        "winner": "rep",
+        "repVotes": 556462,
+        "demVotes": 374583
+      },
+      "KS": {
+        "winner": "rep",
+        "repVotes": 771406,
+        "demVotes": 570323
+      },
+      "OK": {
+        "winner": "rep",
+        "repVotes": 1039633,
+        "demVotes": 504119
+      },
+      "TX": {
+        "winner": "rep",
+        "repVotes": 6241986,
+        "demVotes": 5259126
+      },
+      "IA": {
+        "winner": "rep",
+        "repVotes": 897672,
+        "demVotes": 759061
+      },
+      "MO": {
+        "winner": "rep",
+        "repVotes": 1725500,
+        "demVotes": 1253140
+      },
+      "AR": {
+        "winner": "rep",
+        "repVotes": 766874,
+        "demVotes": 423932
+      },
+      "LA": {
+        "winner": "rep",
+        "repVotes": 1199902,
+        "demVotes": 864031
+      },
+      "WI": {
+        "winner": "rep",
+        "repVotes": 1661425,
+        "demVotes": 1630766
+      },
+      "MI": {
+        "winner": "rep",
+        "repVotes": 2773251,
+        "demVotes": 2792658
+      },
+      "IN": {
+        "winner": "rep",
+        "repVotes": 1729603,
+        "demVotes": 1039126
+      },
+      "OH": {
+        "winner": "rep",
+        "repVotes": 3178352,
+        "demVotes": 2679166
+      },
+      "KY": {
+        "winner": "rep",
+        "repVotes": 1308790,
+        "demVotes": 775410
+      },
+      "TN": {
+        "winner": "rep",
+        "repVotes": 1830912,
+        "demVotes": 1079462
+      },
+      "NC": {
+        "winner": "rep",
+        "repVotes": 2838969,
+        "demVotes": 2684042
+      },
+      "SC": {
+        "winner": "rep",
+        "repVotes": 1436450,
+        "demVotes": 1092940
+      },
+      "AL": {
+        "winner": "rep",
+        "repVotes": 1441170,
+        "demVotes": 849624
+      },
+      "MS": {
+        "winner": "rep",
+        "repVotes": 755864,
+        "demVotes": 538783
+      },
+      "FL": {
+        "winner": "rep",
+        "repVotes": 6210342,
+        "demVotes": 5297045
+      },
+      "PA": {
+        "winner": "rep",
+        "repVotes": 3564377,
+        "demVotes": 3437862
+      },
+      "WV": {
+        "winner": "rep",
+        "repVotes": 545428,
+        "demVotes": 249924
+      },
+      "NV": {
+        "winner": "rep",
+        "repVotes": 726590,
+        "demVotes": 703486
+      },
+      "UT": {
+        "winner": "rep",
+        "repVotes": 590546,
+        "demVotes": 417036
+      },
+      "AK": {
+        "winner": "rep",
+        "repVotes": 189629,
+        "demVotes": 153303
+      },
+      "AZ": {
+        "winner": "rep",
+        "repVotes": 1763008,
+        "demVotes": 1672143
+      },
+      "GA": {
+        "winner": "rep",
+        "repVotes": 2672205,
+        "demVotes": 2474507
+      },
+      "WA": {
+        "winner": "dem",
+        "repVotes": 1508960,
+        "demVotes": 2435454
+      },
+      "OR": {
+        "winner": "dem",
+        "repVotes": 958638,
+        "demVotes": 1409682
+      },
+      "CA": {
+        "winner": "dem",
+        "repVotes": 5570034,
+        "demVotes": 11110095
+      },
+      "CO": {
+        "winner": "dem",
+        "repVotes": 1347426,
+        "demVotes": 1804352
+      },
+      "NM": {
+        "winner": "dem",
+        "repVotes": 401534,
+        "demVotes": 533646
+      },
+      "IL": {
+        "winner": "dem",
+        "repVotes": 2461336,
+        "demVotes": 3835260
+      },
+      "NY": {
+        "winner": "dem",
+        "repVotes": 3244146,
+        "demVotes": 5614675
+      },
+      "VA": {
+        "winner": "dem",
+        "repVotes": 1966459,
+        "demVotes": 2413168
+      },
+      "ME": {
+        "winner": "dem",
+        "repVotes": 341009,
+        "demVotes": 435062
+      },
+      "VT": {
+        "winner": "dem",
+        "repVotes": 112291,
+        "demVotes": 242820
+      },
+      "NH": {
+        "winner": "dem",
+        "repVotes": 364907,
+        "demVotes": 424921
+      },
+      "MA": {
+        "winner": "dem",
+        "repVotes": 1221383,
+        "demVotes": 2378354
+      },
+      "RI": {
+        "winner": "dem",
+        "repVotes": 187698,
+        "demVotes": 309372
+      },
+      "CT": {
+        "winner": "dem",
+        "repVotes": 712332,
+        "demVotes": 1081665
+      },
+      "DE": {
+        "winner": "dem",
+        "repVotes": 200603,
+        "demVotes": 296368
+      },
+      "MD": {
+        "winner": "dem",
+        "repVotes": 977759,
+        "demVotes": 1980298
+      },
+      "DC": {
+        "winner": "dem",
+        "repVotes": 21571,
+        "demVotes": 311510
+      },
+      "HI": {
+        "winner": "dem",
+        "repVotes": 187714,
+        "demVotes": 391541
+      },
+      "NJ": {
+        "winner": "dem",
+        "repVotes": 1584167,
+        "demVotes": 2554138
+      },
+      "MN": {
+        "winner": "dem",
+        "repVotes": 1453159,
+        "demVotes": 1717077
+      }
+    }
+  },
+  "events": [
+    {
+      "id": "evt-2024-1",
+      "title": "拜登-特朗普电视辩论",
+      "date": "2024-06-27",
+      "content": "拜登总统在与特朗普的首场总统辩论中表现不佳，引发民主党内部对其连任能力的严重担忧。拜登时而显得困惑、思路中断、声音嘶哑。这场表现触发民主党内部要求拜登退选的浪潮。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.35,
+        "rep_sad": 0.02,
+        "rep_angry": 0.05,
+        "dem_happy": 0.02,
+        "dem_sad": 0.4,
+        "dem_angry": 0.15,
+        "ind_happy": 0.05,
+        "ind_sad": 0.15,
+        "ind_angry": 0.1,
+        "rep_positive": 0.15,
+        "dem_positive": -0.2,
+        "ind_positive": -0.1
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2024-2",
+      "title": "特朗普集会遭枪击",
+      "date": "2024-07-13",
+      "content": "前总统特朗普在宾夕法尼亚州巴特勒市竞选集会上遭枪击，耳朵受伤。这起暗杀企图震惊全美。特勤局迅速护送特朗普离场，特朗普举拳高喊'战斗，战斗，战斗'。一名观众遇难，两人重伤。该事件产生了标志性画面，并在共和党选民中激发了强烈的支持浪潮。",
+      "domain": "安全",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.02,
+        "rep_sad": 0.15,
+        "rep_angry": 0.5,
+        "dem_happy": 0.01,
+        "dem_sad": 0.3,
+        "dem_angry": 0.1,
+        "ind_happy": 0.01,
+        "ind_sad": 0.3,
+        "ind_angry": 0.15,
+        "rep_positive": 0.12,
+        "dem_positive": -0.05,
+        "ind_positive": -0.08
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2024-3",
+      "title": "特朗普确认为共和党候选人",
+      "date": "2024-07-15",
+      "content": "唐纳德·特朗普在威斯康星州密尔沃基的共和党全国代表大会上正式确认为共和党总统候选人。大会在暗杀事件仅两天后团结在特朗普周围，传递力量与韧性的统一信息。俄亥俄州参议员JD·万斯被宣布为特朗普的竞选搭档。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.4,
+        "rep_sad": 0.02,
+        "rep_angry": 0.05,
+        "dem_happy": 0.02,
+        "dem_sad": 0.1,
+        "dem_angry": 0.2,
+        "ind_happy": 0.05,
+        "ind_sad": 0.05,
+        "ind_angry": 0.08,
+        "rep_positive": 0.18,
+        "dem_positive": -0.08,
+        "ind_positive": -0.02
+      },
+      "status": "completed"
+    },
+    {
+      "id": "evt-2024-4",
+      "title": "拜登退选，支持哈里斯",
+      "date": "2024-07-21",
+      "content": "拜登总统宣布退出2024年总统竞选，在辩论表现不佳后屈从于民主党领导人和捐助者的压力。拜登支持副总统卡玛拉·哈里斯作为民主党候选人。这一公告重塑了竞选格局，激发了民主党的基层活力，重置了竞选动态。",
+      "domain": "政治",
+      "country": "US",
+      "impact": {
+        "rep_happy": 0.15,
+        "rep_sad": 0.05,
+        "rep_angry": 0.08,
+        "dem_happy": 0.3,
+        "dem_sad": 0.2,
+        "dem_angry": 0.05,
+        "ind_happy": 0.1,
+        "ind_sad": 0.1,
+        "ind_angry": 0.05,
+        "rep_positive": -0.05,
+        "dem_positive": 0.15,
+        "ind_positive": 0.05
+      },
+      "status": "completed"
+    }
+  ],
+  "emotion_waves": [
+    {
+      "event_id": "evt-2024-2",
+      "title": "特朗普遭枪击 - 情绪反应",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "rep_positive": 0,
+          "dem_positive": 0,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.08,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.08,
+          "rep_positive": 0,
+          "dem_positive": 0,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.02,
+          "rep_sad": 0.15,
+          "rep_angry": 0.5,
+          "dem_happy": 0.01,
+          "dem_sad": 0.3,
+          "dem_angry": 0.1,
+          "ind_happy": 0.01,
+          "ind_sad": 0.3,
+          "ind_angry": 0.15,
+          "rep_positive": 0.12,
+          "dem_positive": -0.05,
+          "ind_positive": -0.08
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.03,
+          "rep_sad": 0.12,
+          "rep_angry": 0.45,
+          "dem_happy": 0.01,
+          "dem_sad": 0.25,
+          "dem_angry": 0.08,
+          "ind_happy": 0.01,
+          "ind_sad": 0.25,
+          "ind_angry": 0.12,
+          "rep_positive": 0.1,
+          "dem_positive": -0.03,
+          "ind_positive": -0.06
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.04,
+          "rep_sad": 0.1,
+          "rep_angry": 0.38,
+          "dem_happy": 0.02,
+          "dem_sad": 0.2,
+          "dem_angry": 0.06,
+          "ind_happy": 0.02,
+          "ind_sad": 0.2,
+          "ind_angry": 0.1,
+          "rep_positive": 0.08,
+          "dem_positive": -0.02,
+          "ind_positive": -0.04
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.04,
+          "rep_sad": 0.08,
+          "rep_angry": 0.3,
+          "dem_happy": 0.02,
+          "dem_sad": 0.15,
+          "dem_angry": 0.05,
+          "ind_happy": 0.02,
+          "ind_sad": 0.15,
+          "ind_angry": 0.08,
+          "rep_positive": 0.06,
+          "dem_positive": -0.01,
+          "ind_positive": -0.02
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.05,
+          "rep_sad": 0.06,
+          "rep_angry": 0.22,
+          "dem_happy": 0.03,
+          "dem_sad": 0.1,
+          "dem_angry": 0.05,
+          "ind_happy": 0.03,
+          "ind_sad": 0.1,
+          "ind_angry": 0.06,
+          "rep_positive": 0.04,
+          "dem_positive": 0,
+          "ind_positive": -0.01
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.05,
+          "rep_sad": 0.05,
+          "rep_angry": 0.16,
+          "dem_happy": 0.04,
+          "dem_sad": 0.08,
+          "dem_angry": 0.04,
+          "ind_happy": 0.04,
+          "ind_sad": 0.08,
+          "ind_angry": 0.05,
+          "rep_positive": 0.02,
+          "dem_positive": 0,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.05,
+          "rep_sad": 0.04,
+          "rep_angry": 0.12,
+          "dem_happy": 0.04,
+          "dem_sad": 0.06,
+          "dem_angry": 0.04,
+          "ind_happy": 0.04,
+          "ind_sad": 0.06,
+          "ind_angry": 0.04,
+          "rep_positive": 0.01,
+          "dem_positive": 0,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.05,
+          "rep_sad": 0.03,
+          "rep_angry": 0.08,
+          "dem_happy": 0.05,
+          "dem_sad": 0.05,
+          "dem_angry": 0.04,
+          "ind_happy": 0.05,
+          "ind_sad": 0.05,
+          "ind_angry": 0.04,
+          "rep_positive": 0,
+          "dem_positive": 0,
+          "ind_positive": 0
+        }
+      ]
+    },
+    {
+      "event_id": "evt-2024-4",
+      "title": "拜登退选 - 情绪反应",
+      "timeline": [
+        {
+          "day_offset": -2,
+          "rep_happy": 0.08,
+          "rep_sad": 0.03,
+          "rep_angry": 0.05,
+          "dem_happy": 0.03,
+          "dem_sad": 0.15,
+          "dem_angry": 0.1,
+          "ind_happy": 0.04,
+          "ind_sad": 0.08,
+          "ind_angry": 0.06,
+          "rep_positive": 0.05,
+          "dem_positive": -0.08,
+          "ind_positive": -0.03
+        },
+        {
+          "day_offset": -1,
+          "rep_happy": 0.1,
+          "rep_sad": 0.03,
+          "rep_angry": 0.06,
+          "dem_happy": 0.02,
+          "dem_sad": 0.18,
+          "dem_angry": 0.12,
+          "ind_happy": 0.03,
+          "ind_sad": 0.1,
+          "ind_angry": 0.07,
+          "rep_positive": 0.06,
+          "dem_positive": -0.1,
+          "ind_positive": -0.04
+        },
+        {
+          "day_offset": 0,
+          "rep_happy": 0.15,
+          "rep_sad": 0.05,
+          "rep_angry": 0.08,
+          "dem_happy": 0.3,
+          "dem_sad": 0.2,
+          "dem_angry": 0.05,
+          "ind_happy": 0.1,
+          "ind_sad": 0.1,
+          "ind_angry": 0.05,
+          "rep_positive": -0.05,
+          "dem_positive": 0.15,
+          "ind_positive": 0.05
+        },
+        {
+          "day_offset": 1,
+          "rep_happy": 0.12,
+          "rep_sad": 0.04,
+          "rep_angry": 0.1,
+          "dem_happy": 0.28,
+          "dem_sad": 0.15,
+          "dem_angry": 0.04,
+          "ind_happy": 0.1,
+          "ind_sad": 0.08,
+          "ind_angry": 0.04,
+          "rep_positive": -0.03,
+          "dem_positive": 0.18,
+          "ind_positive": 0.06
+        },
+        {
+          "day_offset": 2,
+          "rep_happy": 0.1,
+          "rep_sad": 0.04,
+          "rep_angry": 0.1,
+          "dem_happy": 0.25,
+          "dem_sad": 0.12,
+          "dem_angry": 0.03,
+          "ind_happy": 0.08,
+          "ind_sad": 0.06,
+          "ind_angry": 0.04,
+          "rep_positive": -0.02,
+          "dem_positive": 0.16,
+          "ind_positive": 0.05
+        },
+        {
+          "day_offset": 3,
+          "rep_happy": 0.08,
+          "rep_sad": 0.03,
+          "rep_angry": 0.08,
+          "dem_happy": 0.2,
+          "dem_sad": 0.1,
+          "dem_angry": 0.03,
+          "ind_happy": 0.07,
+          "ind_sad": 0.05,
+          "ind_angry": 0.04,
+          "rep_positive": -0.01,
+          "dem_positive": 0.12,
+          "ind_positive": 0.03
+        },
+        {
+          "day_offset": 4,
+          "rep_happy": 0.07,
+          "rep_sad": 0.03,
+          "rep_angry": 0.07,
+          "dem_happy": 0.15,
+          "dem_sad": 0.08,
+          "dem_angry": 0.03,
+          "ind_happy": 0.06,
+          "ind_sad": 0.05,
+          "ind_angry": 0.04,
+          "rep_positive": 0,
+          "dem_positive": 0.08,
+          "ind_positive": 0.02
+        },
+        {
+          "day_offset": 5,
+          "rep_happy": 0.06,
+          "rep_sad": 0.03,
+          "rep_angry": 0.06,
+          "dem_happy": 0.12,
+          "dem_sad": 0.06,
+          "dem_angry": 0.03,
+          "ind_happy": 0.06,
+          "ind_sad": 0.04,
+          "ind_angry": 0.04,
+          "rep_positive": 0,
+          "dem_positive": 0.05,
+          "ind_positive": 0.01
+        },
+        {
+          "day_offset": 6,
+          "rep_happy": 0.06,
+          "rep_sad": 0.03,
+          "rep_angry": 0.05,
+          "dem_happy": 0.1,
+          "dem_sad": 0.05,
+          "dem_angry": 0.03,
+          "ind_happy": 0.05,
+          "ind_sad": 0.04,
+          "ind_angry": 0.04,
+          "rep_positive": 0,
+          "dem_positive": 0.03,
+          "ind_positive": 0
+        },
+        {
+          "day_offset": 7,
+          "rep_happy": 0.05,
+          "rep_sad": 0.03,
+          "rep_angry": 0.05,
+          "dem_happy": 0.08,
+          "dem_sad": 0.04,
+          "dem_angry": 0.03,
+          "ind_happy": 0.05,
+          "ind_sad": 0.04,
+          "ind_angry": 0.04,
+          "rep_positive": 0,
+          "dem_positive": 0.01,
+          "ind_positive": 0
+        }
+      ]
+    }
+  ],
+  "accuracy": {
+    "state_accuracy": 0.9216,
+    "ev_error": 3,
+    "correctly_predicted": 47,
+    "total_states": 51
+  }
+}
