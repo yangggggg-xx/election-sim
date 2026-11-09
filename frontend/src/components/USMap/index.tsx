@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import topology from './us-map.json';
 import { geoAlbersUsa, geoPath, geoCentroid } from 'd3-geo';
 import { feature } from 'topojson-client';
 import { Tooltip } from 'antd';
@@ -15,6 +15,8 @@ const FIPS_TO_ABBR: Record<string, string> = {
   '54':'WV','55':'WI','56':'WY',
 };
 
+const geoData = feature(topology as any, topology.objects.states as any) as unknown as { features: any[] };
+
 interface USMapProps {
   statePredictions: Record<string, StatePrediction>;
   selectedState: string | null;
@@ -22,8 +24,6 @@ interface USMapProps {
 }
 
 export default function USMap({ statePredictions, selectedState, onSelectState }: USMapProps) {
-  const [geoData, setGeoData] = useState<any>(null);
-  useEffect(() => { fetch(import.meta.env.BASE_URL + 'us-map.json').then(r => r.json()).then(topo => setGeoData(feature(topo, topo.objects.states))); }, []);
 
   const projection = geoAlbersUsa().scale(1100).translate([480, 280]);
   const pathGen = geoPath().projection(projection);
@@ -36,7 +36,6 @@ export default function USMap({ statePredictions, selectedState, onSelectState }
     return pred.winner === 'rep' ? `rgba(220,38,38,${a})` : `rgba(37,99,235,${a})`;
   };
 
-  if (!geoData) return <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#999' }}>地图加载中...</div>;
 
   const labels = geoData.features.map((f: any) => {
     const fips = String(f.id).padStart(2, '0'); const abbr = FIPS_TO_ABBR[fips]; if (!abbr) return null;
