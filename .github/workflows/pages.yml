@@ -23,7 +23,7 @@ jobs:
           node-version: 22
       - run: npm ci --legacy-peer-deps
         working-directory: frontend
-      - run: npm run build
+      - run: npm exec -- vite build
         working-directory: frontend
         env:
           VITE_BACKEND_URL: ${{ vars.BACKEND_URL }}
@@ -32,4 +32,5 @@ jobs:
           path: frontend/dist
       - uses: actions/deploy-pages@v4
         id: deployment
+
 
