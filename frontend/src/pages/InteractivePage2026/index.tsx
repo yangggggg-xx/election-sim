@@ -1,3 +1,4 @@
+import backtest from '../../data/election_2026_backtest.json';
 import { API_BASE } from '../../utils/api';
 import { useEffect, useRef, useCallback, useMemo, useState } from 'react';
 import { Modal, Tooltip, Slider, Switch, Button, Input, Select } from 'antd';
@@ -232,6 +233,34 @@ export default function InteractivePage2026() {
           </div>
         }
       />
+
+      <section style={{ ...cardStyle, margin: '16px 24px', padding: 18 }}>
+        <h2 style={{ marginTop: 0 }}>2026 选前事件回测</h2>
+        <p>截止 {backtest.cutoff}。用同一规则引擎重跑原有 {backtest.baselineEventCount} 条 GLM 事件，再加入以下两条选前事件。新增事件参数为人工设定的情景假设，计算没有使用投票结果。</p>
+        <ul>
+          {backtest.events.map(event => (
+            <li key={event.date}>
+              {event.date} · <a href={event.source} target="_blank" rel="noreferrer">{event.title}</a>。{event.assumption}
+            </li>
+          ))}
+        </ul>
+        <p>原事件回放 · 共和党 {backtest.baseline.rep} / 民主党 {backtest.baseline.dem}　｜　加入新事件 · 共和党 {backtest.updated.rep} / 民主党 {backtest.updated.dem}</p>
+        <p style={{ color: C.textSecondary }}>数字使用总统选举人票作州级加权，仅表示模型倾向。中期选举的国会席位按各场竞选分别计算。</p>
+        <details>
+          <summary>比较各州模型领先幅度</summary>
+          <table style={{ textAlign: 'left', width: '100%', marginTop: 12 }}>
+            <thead><tr><th>州</th><th>原事件</th><th>加入新事件</th></tr></thead>
+            <tbody>
+              {Object.entries(backtest.updated.states).map(([abbr, updated]) => {
+                const baseline = backtest.baseline.states[abbr as keyof typeof backtest.baseline.states];
+                const label = (result: typeof updated) =>
+                  (result.winner === 'rep' ? '共和党' : '民主党') + ' +' + (result.confidence * 100).toFixed(1) + ' 个百分点';
+                return <tr key={abbr}><td>{STATE_NAMES[abbr] ?? abbr}</td><td>{label(baseline)}</td><td>{label(updated)}</td></tr>;
+              })}
+            </tbody>
+          </table>
+        </details>
+      </section>
 
       {/* 模拟控制栏（仅模拟模式） */}
       {simMode && (

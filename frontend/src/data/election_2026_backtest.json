@@ -1,0 +1,549 @@
+{
+  "cutoff": "2026-11-02",
+  "baselineEventCount": 9,
+  "events": [
+    {
+      "date": "2026-09-02",
+      "title": "签署拨款法案，避免选前联邦政府停摆",
+      "source": "https://www.investing.com/news/economy-news/trump-signs-bill-to-avert-government-shutdown-before-midterm-elections-4886940",
+      "assumption": "假设停摆风险降低小幅改善共和党和独立选民的态度。",
+      "impact": {
+        "rep_positive": 0.02,
+        "ind_positive": 0.01
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "title": "美国公布 9 月 CPI，环比上涨 0.6%",
+      "source": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "assumption": "假设物价压力削弱共和党支持者和独立选民的态度，并小幅提升民主党支持者的态度。",
+      "impact": {
+        "rep_positive": -0.04,
+        "dem_positive": 0.02,
+        "ind_positive": -0.05
+      }
+    }
+  ],
+  "baseline": {
+    "rep": 312,
+    "dem": 226,
+    "states": {
+      "AL": {
+        "winner": "rep",
+        "confidence": 0.315,
+        "ev": 9
+      },
+      "AK": {
+        "winner": "rep",
+        "confidence": 0.179,
+        "ev": 3
+      },
+      "AZ": {
+        "winner": "rep",
+        "confidence": 0.062,
+        "ev": 11
+      },
+      "AR": {
+        "winner": "rep",
+        "confidence": 0.345,
+        "ev": 6
+      },
+      "CA": {
+        "winner": "dem",
+        "confidence": 0.286,
+        "ev": 54
+      },
+      "CO": {
+        "winner": "dem",
+        "confidence": 0.08,
+        "ev": 10
+      },
+      "CT": {
+        "winner": "dem",
+        "confidence": 0.171,
+        "ev": 7
+      },
+      "DE": {
+        "winner": "dem",
+        "confidence": 0.157,
+        "ev": 3
+      },
+      "DC": {
+        "winner": "dem",
+        "confidence": 0.5,
+        "ev": 3
+      },
+      "FL": {
+        "winner": "rep",
+        "confidence": 0.108,
+        "ev": 30
+      },
+      "GA": {
+        "winner": "rep",
+        "confidence": 0.062,
+        "ev": 16
+      },
+      "HI": {
+        "winner": "dem",
+        "confidence": 0.306,
+        "ev": 4
+      },
+      "ID": {
+        "winner": "rep",
+        "confidence": 0.424,
+        "ev": 4
+      },
+      "IL": {
+        "winner": "dem",
+        "confidence": 0.183,
+        "ev": 19
+      },
+      "IN": {
+        "winner": "rep",
+        "confidence": 0.306,
+        "ev": 11
+      },
+      "IA": {
+        "winner": "rep",
+        "confidence": 0.156,
+        "ev": 6
+      },
+      "KS": {
+        "winner": "rep",
+        "confidence": 0.206,
+        "ev": 6
+      },
+      "KY": {
+        "winner": "rep",
+        "confidence": 0.312,
+        "ev": 8
+      },
+      "LA": {
+        "winner": "rep",
+        "confidence": 0.219,
+        "ev": 8
+      },
+      "ME": {
+        "winner": "dem",
+        "confidence": 0.056,
+        "ev": 4
+      },
+      "MD": {
+        "winner": "dem",
+        "confidence": 0.293,
+        "ev": 10
+      },
+      "MA": {
+        "winner": "dem",
+        "confidence": 0.275,
+        "ev": 11
+      },
+      "MI": {
+        "winner": "rep",
+        "confidence": 0.039,
+        "ev": 15
+      },
+      "MN": {
+        "winner": "dem",
+        "confidence": 0.018,
+        "ev": 10
+      },
+      "MS": {
+        "winner": "rep",
+        "confidence": 0.224,
+        "ev": 6
+      },
+      "MO": {
+        "winner": "rep",
+        "confidence": 0.215,
+        "ev": 10
+      },
+      "MT": {
+        "winner": "rep",
+        "confidence": 0.226,
+        "ev": 4
+      },
+      "NE": {
+        "winner": "rep",
+        "confidence": 0.252,
+        "ev": 5
+      },
+      "NV": {
+        "winner": "rep",
+        "confidence": 0.038,
+        "ev": 6
+      },
+      "NH": {
+        "winner": "dem",
+        "confidence": 0.011,
+        "ev": 4
+      },
+      "NJ": {
+        "winner": "dem",
+        "confidence": 0.199,
+        "ev": 14
+      },
+      "NM": {
+        "winner": "dem",
+        "confidence": 0.076,
+        "ev": 5
+      },
+      "NY": {
+        "winner": "dem",
+        "confidence": 0.232,
+        "ev": 28
+      },
+      "NC": {
+        "winner": "rep",
+        "confidence": 0.086,
+        "ev": 16
+      },
+      "ND": {
+        "winner": "rep",
+        "confidence": 0.444,
+        "ev": 3
+      },
+      "OH": {
+        "winner": "rep",
+        "confidence": 0.158,
+        "ev": 17
+      },
+      "OK": {
+        "winner": "rep",
+        "confidence": 0.419,
+        "ev": 7
+      },
+      "OR": {
+        "winner": "dem",
+        "confidence": 0.155,
+        "ev": 8
+      },
+      "PA": {
+        "winner": "rep",
+        "confidence": 0.047,
+        "ev": 19
+      },
+      "RI": {
+        "winner": "dem",
+        "confidence": 0.21,
+        "ev": 4
+      },
+      "SC": {
+        "winner": "rep",
+        "confidence": 0.208,
+        "ev": 9
+      },
+      "SD": {
+        "winner": "rep",
+        "confidence": 0.325,
+        "ev": 3
+      },
+      "TN": {
+        "winner": "rep",
+        "confidence": 0.315,
+        "ev": 11
+      },
+      "TX": {
+        "winner": "rep",
+        "confidence": 0.129,
+        "ev": 40
+      },
+      "UT": {
+        "winner": "rep",
+        "confidence": 0.229,
+        "ev": 6
+      },
+      "VT": {
+        "winner": "dem",
+        "confidence": 0.322,
+        "ev": 3
+      },
+      "VA": {
+        "winner": "dem",
+        "confidence": 0.037,
+        "ev": 13
+      },
+      "WA": {
+        "winner": "dem",
+        "confidence": 0.2,
+        "ev": 12
+      },
+      "WV": {
+        "winner": "rep",
+        "confidence": 0.444,
+        "ev": 4
+      },
+      "WI": {
+        "winner": "rep",
+        "confidence": 0.059,
+        "ev": 10
+      },
+      "WY": {
+        "winner": "rep",
+        "confidence": 0.5,
+        "ev": 3
+      }
+    }
+  },
+  "updated": {
+    "rep": 312,
+    "dem": 226,
+    "states": {
+      "AL": {
+        "winner": "rep",
+        "confidence": 0.313,
+        "ev": 9
+      },
+      "AK": {
+        "winner": "rep",
+        "confidence": 0.18,
+        "ev": 3
+      },
+      "AZ": {
+        "winner": "rep",
+        "confidence": 0.066,
+        "ev": 11
+      },
+      "AR": {
+        "winner": "rep",
+        "confidence": 0.343,
+        "ev": 6
+      },
+      "CA": {
+        "winner": "dem",
+        "confidence": 0.291,
+        "ev": 54
+      },
+      "CO": {
+        "winner": "dem",
+        "confidence": 0.076,
+        "ev": 10
+      },
+      "CT": {
+        "winner": "dem",
+        "confidence": 0.176,
+        "ev": 7
+      },
+      "DE": {
+        "winner": "dem",
+        "confidence": 0.163,
+        "ev": 3
+      },
+      "DC": {
+        "winner": "dem",
+        "confidence": 0.5,
+        "ev": 3
+      },
+      "FL": {
+        "winner": "rep",
+        "confidence": 0.11,
+        "ev": 30
+      },
+      "GA": {
+        "winner": "rep",
+        "confidence": 0.066,
+        "ev": 16
+      },
+      "HI": {
+        "winner": "dem",
+        "confidence": 0.31,
+        "ev": 4
+      },
+      "ID": {
+        "winner": "rep",
+        "confidence": 0.423,
+        "ev": 4
+      },
+      "IL": {
+        "winner": "dem",
+        "confidence": 0.188,
+        "ev": 19
+      },
+      "IN": {
+        "winner": "rep",
+        "confidence": 0.305,
+        "ev": 11
+      },
+      "IA": {
+        "winner": "rep",
+        "confidence": 0.158,
+        "ev": 6
+      },
+      "KS": {
+        "winner": "rep",
+        "confidence": 0.205,
+        "ev": 6
+      },
+      "KY": {
+        "winner": "rep",
+        "confidence": 0.311,
+        "ev": 8
+      },
+      "LA": {
+        "winner": "rep",
+        "confidence": 0.218,
+        "ev": 8
+      },
+      "ME": {
+        "winner": "dem",
+        "confidence": 0.052,
+        "ev": 4
+      },
+      "MD": {
+        "winner": "dem",
+        "confidence": 0.297,
+        "ev": 10
+      },
+      "MA": {
+        "winner": "dem",
+        "confidence": 0.28,
+        "ev": 11
+      },
+      "MI": {
+        "winner": "rep",
+        "confidence": 0.042,
+        "ev": 15
+      },
+      "MN": {
+        "winner": "dem",
+        "confidence": 0.014,
+        "ev": 10
+      },
+      "MS": {
+        "winner": "rep",
+        "confidence": 0.223,
+        "ev": 6
+      },
+      "MO": {
+        "winner": "rep",
+        "confidence": 0.214,
+        "ev": 10
+      },
+      "MT": {
+        "winner": "rep",
+        "confidence": 0.225,
+        "ev": 4
+      },
+      "NE": {
+        "winner": "rep",
+        "confidence": 0.251,
+        "ev": 5
+      },
+      "NV": {
+        "winner": "rep",
+        "confidence": 0.042,
+        "ev": 6
+      },
+      "NH": {
+        "winner": "dem",
+        "confidence": 0.007,
+        "ev": 4
+      },
+      "NJ": {
+        "winner": "dem",
+        "confidence": 0.205,
+        "ev": 14
+      },
+      "NM": {
+        "winner": "dem",
+        "confidence": 0.072,
+        "ev": 5
+      },
+      "NY": {
+        "winner": "dem",
+        "confidence": 0.238,
+        "ev": 28
+      },
+      "NC": {
+        "winner": "rep",
+        "confidence": 0.088,
+        "ev": 16
+      },
+      "ND": {
+        "winner": "rep",
+        "confidence": 0.442,
+        "ev": 3
+      },
+      "OH": {
+        "winner": "rep",
+        "confidence": 0.16,
+        "ev": 17
+      },
+      "OK": {
+        "winner": "rep",
+        "confidence": 0.417,
+        "ev": 7
+      },
+      "OR": {
+        "winner": "dem",
+        "confidence": 0.161,
+        "ev": 8
+      },
+      "PA": {
+        "winner": "rep",
+        "confidence": 0.051,
+        "ev": 19
+      },
+      "RI": {
+        "winner": "dem",
+        "confidence": 0.215,
+        "ev": 4
+      },
+      "SC": {
+        "winner": "rep",
+        "confidence": 0.21,
+        "ev": 9
+      },
+      "SD": {
+        "winner": "rep",
+        "confidence": 0.324,
+        "ev": 3
+      },
+      "TN": {
+        "winner": "rep",
+        "confidence": 0.313,
+        "ev": 11
+      },
+      "TX": {
+        "winner": "rep",
+        "confidence": 0.131,
+        "ev": 40
+      },
+      "UT": {
+        "winner": "rep",
+        "confidence": 0.227,
+        "ev": 6
+      },
+      "VT": {
+        "winner": "dem",
+        "confidence": 0.326,
+        "ev": 3
+      },
+      "VA": {
+        "winner": "dem",
+        "confidence": 0.033,
+        "ev": 13
+      },
+      "WA": {
+        "winner": "dem",
+        "confidence": 0.205,
+        "ev": 12
+      },
+      "WV": {
+        "winner": "rep",
+        "confidence": 0.442,
+        "ev": 4
+      },
+      "WI": {
+        "winner": "rep",
+        "confidence": 0.062,
+        "ev": 10
+      },
+      "WY": {
+        "winner": "rep",
+        "confidence": 0.5,
+        "ev": 3
+      }
+    }
+  }
+}
