@@ -70,7 +70,7 @@ export default function InteractivePage2026() {
   const [ensembleData, setEnsembleData] = useState<any>(null);
 
   useEffect(() => {
-    fetch('/election_2026_ensemble.json')
+    fetch(import.meta.env.BASE_URL + 'election_2026_ensemble.json')
       .then(r => { if (r.ok) return r.json(); throw new Error('not found'); })
       .then(data => setEnsembleData(data))
       .catch(() => {});
@@ -593,4 +593,3 @@ export default function InteractivePage2026() {
     </div>
   );
 }
-

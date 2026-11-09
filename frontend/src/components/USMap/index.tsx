@@ -23,7 +23,7 @@ interface USMapProps {
 
 export default function USMap({ statePredictions, selectedState, onSelectState }: USMapProps) {
   const [geoData, setGeoData] = useState<any>(null);
-  useEffect(() => { fetch('/us-map.json').then(r => r.json()).then(topo => setGeoData(feature(topo, topo.objects.states))); }, []);
+  useEffect(() => { fetch(import.meta.env.BASE_URL + 'us-map.json').then(r => r.json()).then(topo => setGeoData(feature(topo, topo.objects.states))); }, []);
 
   const projection = geoAlbersUsa().scale(1100).translate([480, 280]);
   const pathGen = geoPath().projection(projection);
